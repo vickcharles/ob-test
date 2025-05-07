@@ -1,7 +1,7 @@
 import { FastifyInstance, FastifyReply, FastifyRequest } from 'fastify';
-import { BalanceService } from '../../application/balanceService';
-import { ErrorType } from '../../domain/types';
-import { balanceSchema } from '../schemas/balanceSchema';
+import { BalanceService } from '@/application/balanceService';
+import { ErrorType } from '@/domain/types';
+import { balanceSchema } from '@/api/schemas/balanceSchema';
 
 interface BalanceQuery {
   address: string;

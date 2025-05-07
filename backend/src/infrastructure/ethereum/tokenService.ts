@@ -1,6 +1,6 @@
 import { createPublicClient, http, formatUnits, isAddress, getContract } from 'viem';
 import { mainnet } from 'viem/chains';
-import { AppError, ErrorType, TokenBalance, TokenDefinition } from '../../domain/types';
+import { AppError, ErrorType, TokenBalance, TokenDefinition } from '@/domain/types';
 import { ETHEREUM_RPC_URL } from './config';
 import { ERC20_ABI } from './erc20Abi';
 

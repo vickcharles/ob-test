@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
-import { Button } from '../Button';
+import { Button } from '@/components/Button/Button';
 import { isAddress } from 'viem';
 
 interface EthereumAddressFormProps {

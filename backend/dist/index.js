@@ -7,9 +7,9 @@ require("dotenv/config");
 const fastify_1 = __importDefault(require("fastify"));
 const cors_1 = __importDefault(require("@fastify/cors"));
 const caching_1 = __importDefault(require("@fastify/caching"));
-const balanceService_1 = require("./application/balanceService");
-const balanceRoutes_1 = require("./api/routes/balanceRoutes");
-const tokenService_1 = require("./infrastructure/ethereum/tokenService");
+const balanceService_1 = require("@/application/balanceService");
+const balanceRoutes_1 = require("@/api/routes/balanceRoutes");
+const tokenService_1 = require("@/infrastructure/ethereum/tokenService");
 const server = (0, fastify_1.default)({
     logger: {
         level: 'info'
@@ -25,14 +25,6 @@ server.register(caching_1.default, {
     privacy: caching_1.default.privacy.PRIVATE,
     expiresIn: 60, // TTL in seconds for cache entries
     cache: new Map() // Use Map as in-memory cache storage
-});
-// Add hook to log when cache is used
-server.addHook('onSend', (request, reply, payload, done) => {
-    const cacheStatus = reply.getHeader('x-cache');
-    if (cacheStatus) {
-        request.log.info(`CACHE ${cacheStatus}: ${request.method} ${request.url}`);
-    }
-    done(null, payload);
 });
 const tokenService = new tokenService_1.TokenService();
 const balanceService = new balanceService_1.BalanceService(tokenService);
@@ -96,3 +88,4 @@ const start = async () => {
     }
 };
 start();
+//# sourceMappingURL=index.js.map

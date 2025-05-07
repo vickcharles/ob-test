@@ -7,3 +7,4 @@ var ErrorType;
     ErrorType["NO_BALANCES_AVAILABLE"] = "NO_BALANCES_AVAILABLE";
     ErrorType["RPC_ERROR"] = "RPC_ERROR";
 })(ErrorType || (exports.ErrorType = ErrorType = {}));
+//# sourceMappingURL=types.js.map

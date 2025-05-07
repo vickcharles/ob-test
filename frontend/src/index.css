@@ -6,12 +6,6 @@
 @layer base {
   html {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  body {
-    min-height: 100vh;
   }
   
   .dark body {

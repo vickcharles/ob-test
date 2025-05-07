@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BalanceRoutes = void 0;
-const types_1 = require("../../domain/types");
-const balanceSchema_1 = require("../schemas/balanceSchema");
+const types_1 = require("@/domain/types");
+const balanceSchema_1 = require("@/api/schemas/balanceSchema");
 class BalanceRoutes {
     constructor(balanceService) {
         this.balanceService = balanceService;
@@ -59,3 +59,4 @@ class BalanceRoutes {
     }
 }
 exports.BalanceRoutes = BalanceRoutes;
+//# sourceMappingURL=balanceRoutes.js.map

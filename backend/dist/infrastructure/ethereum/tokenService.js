@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.TokenService = void 0;
 const viem_1 = require("viem");
 const chains_1 = require("viem/chains");
-const types_1 = require("../../domain/types");
+const types_1 = require("@/domain/types");
 const config_1 = require("./config");
 const erc20Abi_1 = require("./erc20Abi");
 class TokenService {
@@ -61,3 +61,4 @@ class TokenService {
     }
 }
 exports.TokenService = TokenService;
+//# sourceMappingURL=tokenService.js.map

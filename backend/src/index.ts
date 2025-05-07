@@ -2,9 +2,9 @@ import 'dotenv/config';
 import fastify, { FastifyInstance } from 'fastify'
 import cors from '@fastify/cors'
 import fastifyCaching from '@fastify/caching'
-import { BalanceService } from './application/balanceService'
-import { BalanceRoutes } from './api/routes/balanceRoutes'
-import { TokenService } from './infrastructure/ethereum/tokenService'
+import { BalanceService } from '@/application/balanceService'
+import { BalanceRoutes } from '@/api/routes/balanceRoutes'
+import { TokenService } from '@/infrastructure/ethereum/tokenService'
 
 const server: FastifyInstance = fastify({
   logger: {

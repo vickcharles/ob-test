@@ -1,3 +1,5 @@
+import { formatEther, formatUnits } from 'viem';
+
 /**
  * Formats a balance to display it user-friendly:
  * - Large numbers (≥1): Up to 4 decimal places with comma separators
@@ -8,7 +10,6 @@
  * @param decimals The number of decimals for the token (default: 18 for ETH)
  * @returns A formatted string representation of the balance
  */
-import { formatEther, formatUnits } from 'viem';
 
 export const formatBalance = (balance: string | number, decimals: number = 18): string => {
   try {

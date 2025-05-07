@@ -1,4 +1,4 @@
-import { EthereumBalanceChecker } from './components/EthereumBalanceChecker/EthereumBalanceChecker';
+import { EthereumBalanceChecker } from '@/components/EthereumBalanceChecker/EthereumBalanceChecker';
 import { useEffect } from 'react';
 
 function App() {

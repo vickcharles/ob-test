@@ -1,5 +1,5 @@
-import type { TokenBalance } from '../../types/balance';
-import { formatBalance } from '../../utils/formatters';
+import type { TokenBalance } from '@/types/balance';
+import { formatBalance } from '@/utils/formatters';
 
 interface BalanceCardProps {
   balance: TokenBalance;

@@ -19,3 +19,4 @@ exports.SUPPORTED_TOKENS = [
         decimals: 18
     }
 ];
+//# sourceMappingURL=config.js.map

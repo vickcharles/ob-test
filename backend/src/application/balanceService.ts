@@ -1,6 +1,6 @@
-import { AppError, BalanceResponse, ErrorType, TokenBalance } from '../domain/types';
-import { SUPPORTED_TOKENS } from '../infrastructure/ethereum/config';
-import { TokenService } from '../infrastructure/ethereum/tokenService';
+import { AppError, BalanceResponse, ErrorType, TokenBalance } from '@/domain/types';
+import { SUPPORTED_TOKENS } from '@/infrastructure/ethereum/config';
+import { TokenService } from '@/infrastructure/ethereum/tokenService';
 
 export class BalanceService {
   private tokenService: TokenService;

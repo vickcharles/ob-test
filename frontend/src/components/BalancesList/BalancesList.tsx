@@ -1,5 +1,5 @@
-import type { TokenBalance } from '../../types/balance';
-import { BalanceCard } from '../BalanceCard/BalanceCard';
+import type { TokenBalance } from '@/types/balance';
+import { BalanceCard } from '@/components/BalanceCard/BalanceCard';
 
 interface BalancesListProps {
   address: string;

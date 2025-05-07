@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import type { BalanceResponse } from '../../types/balance';
-import { fetchEthereumBalance } from '../../services/balanceService';
-import { EthereumAddressForm } from '../EthereumAddressForm/EthereumAddressForm';
-import { BalancesList } from '../BalancesList/BalancesList';
-import { ErrorMessage } from '../ErrorMessage/ErrorMessage';
-import { Button } from '../Button';
+import type { BalanceResponse } from '@/types/balance';
+import { fetchEthereumBalance } from '@/services/balanceService';
+import { EthereumAddressForm } from '@/components/EthereumAddressForm/EthereumAddressForm';
+import { BalancesList } from '@/components/BalancesList/BalancesList';
+import { ErrorMessage } from '@/components/ErrorMessage/ErrorMessage';
+import { Button } from '@/components/Button/Button';
 
 export const EthereumBalanceChecker = () => {
   const [isLoading, setIsLoading] = useState(false);

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.BalanceService = void 0;
-const types_1 = require("../domain/types");
-const config_1 = require("../infrastructure/ethereum/config");
+const types_1 = require("@/domain/types");
+const config_1 = require("@/infrastructure/ethereum/config");
 class BalanceService {
     constructor(tokenService) {
         this.tokenService = tokenService;
@@ -47,3 +47,4 @@ class BalanceService {
     }
 }
 exports.BalanceService = BalanceService;
+//# sourceMappingURL=balanceService.js.map

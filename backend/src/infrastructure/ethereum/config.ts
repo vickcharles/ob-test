@@ -1,4 +1,4 @@
-import { TokenDefinition } from '../../domain/types';
+import { TokenDefinition } from '@/domain/types';
 
 export const ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || 'https://eth-mainnet.g.alchemy.com/v2/demo';
 
