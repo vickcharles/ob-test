@@ -9,9 +9,8 @@ const server: FastifyInstance = fastify({
   logger: true
 })
 
-// Register CORS
 server.register(cors, {
-  origin: true, // Permite todas las origenes en desarrollo
+  origin: true, 
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 });
@@ -63,7 +62,7 @@ server.get<{
 server.setErrorHandler((error, request, reply) => {
   request.log.error(error)
   
-  // Handle validation errors from schema validation
+
   if (error.validation) {
     reply.status(400).send({
       statusCode: 400,
