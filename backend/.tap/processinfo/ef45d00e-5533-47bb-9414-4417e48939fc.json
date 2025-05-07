@@ -1,0 +1,249 @@
+{
+  "date": "2025-05-07T22:11:08.085Z",
+  "argv": [
+    "/Users/vicklercharles/.nvm/versions/node/v23.3.0/bin/node",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/test/balanceRoutes.test.ts"
+  ],
+  "execArgv": [
+    "--import=file:///Users/vicklercharles/Desktop/ob-test/backend/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "--import=file:///Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "--enable-source-maps",
+    "--import=file:///Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/processinfo/dist/esm/import.mjs",
+    "--require=ts-node/register",
+    "--require=./tsconfig-paths-bootstrap.js"
+  ],
+  "NODE_OPTIONS": "\"--import=file:///Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/processinfo/dist/esm/import.mjs\"",
+  "cwd": "/Users/vicklercharles/Desktop/ob-test/backend",
+  "pid": 27097,
+  "ppid": 27091,
+  "parent": null,
+  "uuid": "ef45d00e-5533-47bb-9414-4417e48939fc",
+  "files": [
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/test/balanceRoutes.test.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import.mjs",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@isaacs/ts-node-temp-fork-for-pr-2009/import-loader.mjs",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/import.mjs",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/mock-service.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/is-relative-require.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/export-line.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/munge-mocks.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/service-key.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/call-site-like.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/require-resolve.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-all-conditional-values.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-all-conditions.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-all-exports.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-conditional-value.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-import.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/is-windows.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/parse.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-conditional-values-list.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/errors.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-named-exports-list.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/read-pkg.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-export.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/star-glob.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/to-path.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/find-dep-package.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/file-exists.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/to-file-url.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-dependency-export.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-package-import.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/read-json.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/find-star-match.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/walk-up-path/dist/mjs/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/glob.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/has-magic.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/ignore.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/assert-valid-pattern.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/escape.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/ast.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/unescape.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/pattern.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/path-scurry/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/walker.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/lru-cache/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minipass/dist/esm/index.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/processor.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/brace-expressions.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/loader.mjs",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/hooks.mjs",
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/mock-service-client.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/application/balanceService.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/dist/domain/types.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/dist/infrastructure/ethereum/config.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/api/routes/balanceRoutes.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/dist/api/schemas/balanceSchema.js",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/tokenService.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/erc20Abi.ts",
+    "/Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts"
+  ],
+  "sources": {
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/import.mjs": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/import.mts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/mock-service.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/mock-service.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/is-relative-require.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/is-relative-require.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/export-line.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/export-line.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/munge-mocks.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/munge-mocks.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/resolve-mock-entry-point.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/resolve-mock-entry-point.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/dist/esm/service-key.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/mock/src/service-key.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/call-site-like.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/src/call-site-like.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/require-resolve.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/src/require-resolve.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-all-conditional-values.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/get-all-conditional-values.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-all-conditions.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/get-all-conditions.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-unique-condition-sets.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/get-unique-condition-sets.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-all-exports.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-all-exports.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-all-local-imports.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-all-local-imports.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-conditional-value.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-conditional-value.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-import.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-import.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/is-windows.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/is-windows.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/dist/esm/parse.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/@tapjs/stack/src/parse.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-conditional-values-list.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/get-conditional-values-list.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/errors.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/errors.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/get-named-exports-list.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/get-named-exports-list.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/read-pkg.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/read-pkg.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-export.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-export.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/star-glob.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/star-glob.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/to-path.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/to-path.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/find-dep-package.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/find-dep-package.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/file-exists.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/file-exists.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/to-file-url.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/to-file-url.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-dependency-export.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-dependency-export.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/resolve-package-import.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/resolve-package-import.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/read-json.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/read-json.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/dist/esm/find-star-match.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/resolve-import/src/find-star-match.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/walk-up-path/dist/mjs/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/walk-up-path/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/glob.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/glob.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/has-magic.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/has-magic.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/ignore.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/ignore.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/assert-valid-pattern.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/assert-valid-pattern.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/escape.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/escape.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/ast.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/ast.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/unescape.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/unescape.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/pattern.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/pattern.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/path-scurry/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/path-scurry/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/walker.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/walker.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/lru-cache/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/lru-cache/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minipass/dist/esm/index.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minipass/src/index.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/dist/esm/processor.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/glob/src/processor.ts"
+    ],
+    "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/dist/esm/brace-expressions.js": [
+      "/Users/vicklercharles/Desktop/ob-test/backend/node_modules/minimatch/src/brace-expressions.ts"
+    ]
+  },
+  "root": "ef45d00e-5533-47bb-9414-4417e48939fc",
+  "externalID": "src/test/balanceRoutes.test.ts",
+  "code": 0,
+  "signal": null,
+  "runtime": 1438.105291
+}

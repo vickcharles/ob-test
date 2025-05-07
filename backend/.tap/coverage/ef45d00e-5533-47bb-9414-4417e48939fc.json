@@ -1,0 +1,840 @@
+{
+  "result": [
+    {
+      "scriptId": "941",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/application/balanceService.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 12406,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "BalanceService",
+          "ranges": [
+            {
+              "startOffset": 242,
+              "endOffset": 317,
+              "count": 5
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getBalances",
+          "ranges": [
+            {
+              "startOffset": 322,
+              "endOffset": 1798,
+              "count": 2
+            },
+            {
+              "startOffset": 442,
+              "endOffset": 609,
+              "count": 0
+            },
+            {
+              "startOffset": 1548,
+              "endOffset": 1797,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 757,
+              "endOffset": 1378,
+              "count": 6
+            },
+            {
+              "startOffset": 909,
+              "endOffset": 1010,
+              "count": 2
+            },
+            {
+              "startOffset": 1010,
+              "endOffset": 1135,
+              "count": 4
+            },
+            {
+              "startOffset": 1162,
+              "endOffset": 1368,
+              "count": 3
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1481,
+              "endOffset": 1510,
+              "count": 6
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "942",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/domain/types.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 394,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 121,
+              "endOffset": 307,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "943",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/infrastructure/ethereum/config.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 764,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "944",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/api/routes/balanceRoutes.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 15619,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "BalanceRoutes",
+          "ranges": [
+            {
+              "startOffset": 242,
+              "endOffset": 323,
+              "count": 5
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "registerRoutes",
+          "ranges": [
+            {
+              "startOffset": 328,
+              "endOffset": 1050,
+              "count": 5
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "generateCacheKey",
+          "ranges": [
+            {
+              "startOffset": 677,
+              "endOffset": 780,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "onRequest",
+          "ranges": [
+            {
+              "startOffset": 837,
+              "endOffset": 1004,
+              "count": 5
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "getBalance",
+          "ranges": [
+            {
+              "startOffset": 1055,
+              "endOffset": 2233,
+              "count": 2
+            },
+            {
+              "startOffset": 1221,
+              "endOffset": 2227,
+              "count": 1
+            },
+            {
+              "startOffset": 1430,
+              "endOffset": 1626,
+              "count": 0
+            },
+            {
+              "startOffset": 1910,
+              "endOffset": 2217,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "945",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/api/schemas/balanceSchema.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 1560,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "946",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/tokenService.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 15110,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "TokenService",
+          "ranges": [
+            {
+              "startOffset": 329,
+              "endOffset": 521,
+              "count": 5
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "isValidAddress",
+          "ranges": [
+            {
+              "startOffset": 526,
+              "endOffset": 604,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "getEthBalance",
+          "ranges": [
+            {
+              "startOffset": 609,
+              "endOffset": 1120,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "getTokenBalance",
+          "ranges": [
+            {
+              "startOffset": 1125,
+              "endOffset": 1808,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        },
+        {
+          "functionName": "handleRpcError",
+          "ranges": [
+            {
+              "startOffset": 1813,
+              "endOffset": 2066,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": false
+        }
+      ]
+    },
+    {
+      "scriptId": "1941",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 5150,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1942",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/erc20Abi.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 5424,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1943",
+      "url": "file:///Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 3425,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 121,
+              "endOffset": 307,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 754099.770042,
+  "source-map-cache": {
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/application/balanceService.ts": {
+      "lineLengths": [
+        13,
+        62,
+        32,
+        42,
+        61,
+        22,
+        31,
+        41,
+        5,
+        32,
+        34,
+        57,
+        19,
+        56,
+        63,
+        14,
+        9,
+        84,
+        80,
+        17,
+        70,
+        45,
+        81,
+        17,
+        22,
+        83,
+        17,
+        13,
+        27,
+        66,
+        80,
+        28,
+        13,
+        11,
+        59,
+        71,
+        36,
+        19,
+        62,
+        64,
+        14,
+        9,
+        16,
+        20,
+        20,
+        10,
+        5,
+        1,
+        40,
+        10564
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/application/balanceService.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/application/balanceService.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,cAAc,GAAG,KAAK,CAAC,CAAC;AAChC,MAAM,OAAO,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;AAC1C,MAAM,QAAQ,GAAG,OAAO,CAAC,kCAAkC,CAAC,CAAC;AAC7D,MAAM,cAAc;IAChB,YAAY,YAAY;QACpB,IAAI,CAAC,YAAY,GAAG,YAAY,CAAC;IACrC,CAAC;IACD,KAAK,CAAC,WAAW,CAAC,OAAO;QACrB,0BAA0B;QAC1B,IAAI,CAAC,IAAI,CAAC,YAAY,CAAC,cAAc,CAAC,OAAO,CAAC,EAAE,CAAC;YAC7C,MAAM;gBACF,IAAI,EAAE,OAAO,CAAC,SAAS,CAAC,eAAe;gBACvC,OAAO,EAAE,6BAA6B,OAAO,EAAE;aAClD,CAAC;QACN,CAAC;QACD,4EAA4E;QAC5E,MAAM,eAAe,GAAG,QAAQ,CAAC,gBAAgB,CAAC,GAAG,CAAC,KAAK,EAAE,KAAK,EAAE,EAAE;YAClE,IAAI,CAAC;gBACD,sDAAsD;gBACtD,IAAI,KAAK,CAAC,MAAM,KAAK,KAAK,EAAE,CAAC;oBACzB,OAAO,MAAM,IAAI,CAAC,YAAY,CAAC,aAAa,CAAC,OAAO,EAAE,KAAK,CAAC,CAAC;gBACjE,CAAC;qBACI,CAAC;oBACF,OAAO,MAAM,IAAI,CAAC,YAAY,CAAC,eAAe,CAAC,OAAO,EAAE,KAAK,CAAC,CAAC;gBACnE,CAAC;YACL,CAAC;YACD,OAAO,KAAK,EAAE,CAAC;gBACX,kDAAkD;gBAClD,OAAO,CAAC,KAAK,CAAC,kBAAkB,KAAK,CAAC,MAAM,WAAW,EAAE,KAAK,CAAC,CAAC;gBAChE,OAAO,IAAI,CAAC;YAChB,CAAC;QACL,CAAC,CAAC,CAAC;QACH,MAAM,OAAO,GAAG,MAAM,OAAO,CAAC,GAAG,CAAC,eAAe,CAAC,CAAC;QACnD,MAAM,QAAQ,GAAG,OAAO,CAAC,MAAM,CAAC,CAAC,OAAO,EAAE,EAAE,CAAC,OAAO,KAAK,IAAI,CAAC,CAAC;QAC/D,IAAI,QAAQ,CAAC,MAAM,KAAK,CAAC,EAAE,CAAC;YACxB,MAAM;gBACF,IAAI,EAAE,OAAO,CAAC,SAAS,CAAC,qBAAqB;gBAC7C,OAAO,EAAE,uCAAuC;aACnD,CAAC;QACN,CAAC;QACD,OAAO;YACH,OAAO;YACP,QAAQ;SACX,CAAC;IACN,CAAC;CACJ;AACD,OAAO,CAAC,cAAc,GAAG,cAAc,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.BalanceService = void 0;\nconst types_1 = require(\"@/domain/types\");\nconst config_1 = require(\"@/infrastructure/ethereum/config\");\nclass BalanceService {\n    constructor(tokenService) {\n        this.tokenService = tokenService;\n    }\n    async getBalances(address) {\n        // Validate address format\n        if (!this.tokenService.isValidAddress(address)) {\n            throw {\n                type: types_1.ErrorType.INVALID_ADDRESS,\n                message: `Invalid Ethereum address: ${address}`\n            };\n        }\n        // Get all token balances in parallel, handling errors for each individually\n        const balancePromises = config_1.SUPPORTED_TOKENS.map(async (token) => {\n            try {\n                // ETH needs special handling as it's the native token\n                if (token.symbol === 'ETH') {\n                    return await this.tokenService.getEthBalance(address, token);\n                }\n                else {\n                    return await this.tokenService.getTokenBalance(address, token);\n                }\n            }\n            catch (error) {\n                // Log the error but don't fail the entire request\n                console.error(`Error fetching ${token.symbol} balance:`, error);\n                return null;\n            }\n        });\n        const results = await Promise.all(balancePromises);\n        const balances = results.filter((balance) => balance !== null);\n        if (balances.length === 0) {\n            throw {\n                type: types_1.ErrorType.NO_BALANCES_AVAILABLE,\n                message: 'Failed to retrieve any token balances'\n            };\n        }\n        return {\n            address,\n            balances\n        };\n    }\n}\nexports.BalanceService = BalanceService;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9hcHBsaWNhdGlvbi9iYWxhbmNlU2VydmljZS50cyIsInNvdXJjZXMiOlsiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9hcHBsaWNhdGlvbi9iYWxhbmNlU2VydmljZS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBQSwwQ0FBb0Y7QUFDcEYsNkRBQW9FO0FBR3BFLE1BQWEsY0FBYztJQUd6QixZQUFZLFlBQTBCO1FBQ3BDLElBQUksQ0FBQyxZQUFZLEdBQUcsWUFBWSxDQUFDO0lBQ25DLENBQUM7SUFFTSxLQUFLLENBQUMsV0FBVyxDQUFDLE9BQWU7UUFDdEMsMEJBQTBCO1FBQzFCLElBQUksQ0FBQyxJQUFJLENBQUMsWUFBWSxDQUFDLGNBQWMsQ0FBQyxPQUFPLENBQUMsRUFBRSxDQUFDO1lBQy9DLE1BQU07Z0JBQ0osSUFBSSxFQUFFLGlCQUFTLENBQUMsZUFBZTtnQkFDL0IsT0FBTyxFQUFFLDZCQUE2QixPQUFPLEVBQUU7YUFDcEMsQ0FBQztRQUNoQixDQUFDO1FBRUQsNEVBQTRFO1FBQzVFLE1BQU0sZUFBZSxHQUFHLHlCQUFnQixDQUFDLEdBQUcsQ0FBQyxLQUFLLEVBQUUsS0FBSyxFQUFFLEVBQUU7WUFDM0QsSUFBSSxDQUFDO2dCQUNILHNEQUFzRDtnQkFDdEQsSUFBSSxLQUFLLENBQUMsTUFBTSxLQUFLLEtBQUssRUFBRSxDQUFDO29CQUMzQixPQUFPLE1BQU0sSUFBSSxDQUFDLFlBQVksQ0FBQyxhQUFhLENBQUMsT0FBTyxFQUFFLEtBQUssQ0FBQyxDQUFDO2dCQUMvRCxDQUFDO3FCQUFNLENBQUM7b0JBQ04sT0FBTyxNQUFNLElBQUksQ0FBQyxZQUFZLENBQUMsZUFBZSxDQUFDLE9BQU8sRUFBRSxLQUFLLENBQUMsQ0FBQztnQkFDakUsQ0FBQztZQUNILENBQUM7WUFBQyxPQUFPLEtBQUssRUFBRSxDQUFDO2dCQUNmLGtEQUFrRDtnQkFDbEQsT0FBTyxDQUFDLEtBQUssQ0FBQyxrQkFBa0IsS0FBSyxDQUFDLE1BQU0sV0FBVyxFQUFFLEtBQUssQ0FBQyxDQUFDO2dCQUNoRSxPQUFPLElBQUksQ0FBQztZQUNkLENBQUM7UUFDSCxDQUFDLENBQUMsQ0FBQztRQUdILE1BQU0sT0FBTyxHQUFHLE1BQU0sT0FBTyxDQUFDLEdBQUcsQ0FBQyxlQUFlLENBQUMsQ0FBQztRQUduRCxNQUFNLFFBQVEsR0FBRyxPQUFPLENBQUMsTUFBTSxDQUFDLENBQUMsT0FBTyxFQUEyQixFQUFFLENBQUMsT0FBTyxLQUFLLElBQUksQ0FBQyxDQUFDO1FBR3hGLElBQUksUUFBUSxDQUFDLE1BQU0sS0FBSyxDQUFDLEVBQUUsQ0FBQztZQUMxQixNQUFNO2dCQUNKLElBQUksRUFBRSxpQkFBUyxDQUFDLHFCQUFxQjtnQkFDckMsT0FBTyxFQUFFLHVDQUF1QzthQUNyQyxDQUFDO1FBQ2hCLENBQUM7UUFFRCxPQUFPO1lBQ0wsT0FBTztZQUNQLFFBQVE7U0FDVCxDQUFDO0lBQ0osQ0FBQztDQUNGO0FBbkRELHdDQW1EQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEFwcEVycm9yLCBCYWxhbmNlUmVzcG9uc2UsIEVycm9yVHlwZSwgVG9rZW5CYWxhbmNlIH0gZnJvbSAnQC9kb21haW4vdHlwZXMnO1xuaW1wb3J0IHsgU1VQUE9SVEVEX1RPS0VOUyB9IGZyb20gJ0AvaW5mcmFzdHJ1Y3R1cmUvZXRoZXJldW0vY29uZmlnJztcbmltcG9ydCB7IFRva2VuU2VydmljZSB9IGZyb20gJ0AvaW5mcmFzdHJ1Y3R1cmUvZXRoZXJldW0vdG9rZW5TZXJ2aWNlJztcblxuZXhwb3J0IGNsYXNzIEJhbGFuY2VTZXJ2aWNlIHtcbiAgcHJpdmF0ZSB0b2tlblNlcnZpY2U6IFRva2VuU2VydmljZTtcblxuICBjb25zdHJ1Y3Rvcih0b2tlblNlcnZpY2U6IFRva2VuU2VydmljZSkge1xuICAgIHRoaXMudG9rZW5TZXJ2aWNlID0gdG9rZW5TZXJ2aWNlO1xuICB9XG5cbiAgcHVibGljIGFzeW5jIGdldEJhbGFuY2VzKGFkZHJlc3M6IHN0cmluZyk6IFByb21pc2U8QmFsYW5jZVJlc3BvbnNlPiB7XG4gICAgLy8gVmFsaWRhdGUgYWRkcmVzcyBmb3JtYXRcbiAgICBpZiAoIXRoaXMudG9rZW5TZXJ2aWNlLmlzVmFsaWRBZGRyZXNzKGFkZHJlc3MpKSB7XG4gICAgICB0aHJvdyB7XG4gICAgICAgIHR5cGU6IEVycm9yVHlwZS5JTlZBTElEX0FERFJFU1MsXG4gICAgICAgIG1lc3NhZ2U6IGBJbnZhbGlkIEV0aGVyZXVtIGFkZHJlc3M6ICR7YWRkcmVzc31gXG4gICAgICB9IGFzIEFwcEVycm9yO1xuICAgIH1cblxuICAgIC8vIEdldCBhbGwgdG9rZW4gYmFsYW5jZXMgaW4gcGFyYWxsZWwsIGhhbmRsaW5nIGVycm9ycyBmb3IgZWFjaCBpbmRpdmlkdWFsbHlcbiAgICBjb25zdCBiYWxhbmNlUHJvbWlzZXMgPSBTVVBQT1JURURfVE9LRU5TLm1hcChhc3luYyAodG9rZW4pID0+IHtcbiAgICAgIHRyeSB7XG4gICAgICAgIC8vIEVUSCBuZWVkcyBzcGVjaWFsIGhhbmRsaW5nIGFzIGl0J3MgdGhlIG5hdGl2ZSB0b2tlblxuICAgICAgICBpZiAodG9rZW4uc3ltYm9sID09PSAnRVRIJykge1xuICAgICAgICAgIHJldHVybiBhd2FpdCB0aGlzLnRva2VuU2VydmljZS5nZXRFdGhCYWxhbmNlKGFkZHJlc3MsIHRva2VuKTtcbiAgICAgICAgfSBlbHNlIHtcbiAgICAgICAgICByZXR1cm4gYXdhaXQgdGhpcy50b2tlblNlcnZpY2UuZ2V0VG9rZW5CYWxhbmNlKGFkZHJlc3MsIHRva2VuKTtcbiAgICAgICAgfVxuICAgICAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICAgICAgLy8gTG9nIHRoZSBlcnJvciBidXQgZG9uJ3QgZmFpbCB0aGUgZW50aXJlIHJlcXVlc3RcbiAgICAgICAgY29uc29sZS5lcnJvcihgRXJyb3IgZmV0Y2hpbmcgJHt0b2tlbi5zeW1ib2x9IGJhbGFuY2U6YCwgZXJyb3IpO1xuICAgICAgICByZXR1cm4gbnVsbDtcbiAgICAgIH1cbiAgICB9KTtcblxuXG4gICAgY29uc3QgcmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsKGJhbGFuY2VQcm9taXNlcyk7XG4gICAgXG5cbiAgICBjb25zdCBiYWxhbmNlcyA9IHJlc3VsdHMuZmlsdGVyKChiYWxhbmNlKTogYmFsYW5jZSBpcyBUb2tlbkJhbGFuY2UgPT4gYmFsYW5jZSAhPT0gbnVsbCk7XG5cblxuICAgIGlmIChiYWxhbmNlcy5sZW5ndGggPT09IDApIHtcbiAgICAgIHRocm93IHtcbiAgICAgICAgdHlwZTogRXJyb3JUeXBlLk5PX0JBTEFOQ0VTX0FWQUlMQUJMRSxcbiAgICAgICAgbWVzc2FnZTogJ0ZhaWxlZCB0byByZXRyaWV2ZSBhbnkgdG9rZW4gYmFsYW5jZXMnXG4gICAgICB9IGFzIEFwcEVycm9yO1xuICAgIH1cblxuICAgIHJldHVybiB7XG4gICAgICBhZGRyZXNzLFxuICAgICAgYmFsYW5jZXNcbiAgICB9O1xuICB9XG59Il19"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/domain/types.js": {
+      "lineLengths": [
+        13,
+        62,
+        27,
+        14,
+        23,
+        53,
+        65,
+        41,
+        54,
+        33
+      ],
+      "data": {
+        "version": 3,
+        "file": "types.js",
+        "sourceRoot": "",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AAkBA,IAAY,SAIX;AAJD,WAAY,SAAS;IACnB,gDAAmC,CAAA;IACnC,4DAA+C,CAAA;IAC/C,oCAAuB,CAAA;AACzB,CAAC,EAJW,SAAS,yBAAT,SAAS,QAIpB"
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/infrastructure/ethereum/config.js": {
+      "lineLengths": [
+        13,
+        62,
+        61,
+        103,
+        28,
+        5,
+        22,
+        101,
+        20,
+        6,
+        5,
+        23,
+        90,
+        19,
+        6,
+        5,
+        23,
+        90,
+        20,
+        5,
+        2,
+        34
+      ],
+      "data": {
+        "version": 3,
+        "file": "config.js",
+        "sourceRoot": "",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AAEa,QAAA,gBAAgB,GAAG,OAAO,CAAC,GAAG,CAAC,gBAAgB,IAAI,2CAA2C,CAAC;AAE/F,QAAA,gBAAgB,GAAsB;IACjD;QACE,MAAM,EAAE,KAAK;QACb,OAAO,EAAE,4CAA4C,EAAE,sCAAsC;QAC7F,QAAQ,EAAE,EAAE;KACb;IACD;QACE,MAAM,EAAE,MAAM;QACd,OAAO,EAAE,4CAA4C,EAAE,2BAA2B;QAClF,QAAQ,EAAE,CAAC;KACZ;IACD;QACE,MAAM,EAAE,MAAM;QACd,OAAO,EAAE,4CAA4C,EAAE,2BAA2B;QAClF,QAAQ,EAAE,EAAE;KACb;CACF,CAAC"
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/api/routes/balanceRoutes.ts": {
+      "lineLengths": [
+        13,
+        62,
+        31,
+        42,
+        63,
+        21,
+        33,
+        45,
+        5,
+        28,
+        36,
+        50,
+        21,
+        68,
+        24,
+        81,
+        52,
+        66,
+        21,
+        17,
+        14,
+        50,
+        101,
+        23,
+        13,
+        39,
+        5,
+        38,
+        42,
+        13,
+        74,
+        75,
+        31,
+        9,
+        23,
+        67,
+        38,
+        36,
+        41,
+        42,
+        19,
+        13,
+        78,
+        38,
+        36,
+        51,
+        42,
+        19,
+        13,
+        18,
+        41,
+        38,
+        36,
+        51,
+        83,
+        19,
+        13,
+        9,
+        5,
+        1,
+        38,
+        13344
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/api/routes/balanceRoutes.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/api/routes/balanceRoutes.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,aAAa,GAAG,KAAK,CAAC,CAAC;AAC/B,MAAM,OAAO,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;AAC1C,MAAM,eAAe,GAAG,OAAO,CAAC,6BAA6B,CAAC,CAAC;AAC/D,MAAM,aAAa;IACf,YAAY,cAAc;QACtB,IAAI,CAAC,cAAc,GAAG,cAAc,CAAC;IACzC,CAAC;IACD,cAAc,CAAC,MAAM;QACjB,MAAM,CAAC,GAAG,CAAC,cAAc,EAAE;YACvB,MAAM,EAAE,eAAe,CAAC,aAAa;YACrC,MAAM,EAAE;gBACJ,oDAAoD;gBACpD,KAAK,EAAE;oBACH,6DAA6D;oBAC7D,gBAAgB,EAAE,CAAC,OAAO,EAAE,EAAE;wBAC1B,OAAO,WAAW,OAAO,CAAC,KAAK,CAAC,OAAO,EAAE,CAAC;oBAC9C,CAAC;iBACJ;aACJ;YACD,SAAS,EAAE,CAAC,OAAO,EAAE,KAAK,EAAE,IAAI,EAAE,EAAE;gBAChC,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,2CAA2C,OAAO,CAAC,KAAK,CAAC,OAAO,EAAE,CAAC,CAAC;gBACrF,IAAI,EAAE,CAAC;YACX,CAAC;SACJ,EAAE,IAAI,CAAC,UAAU,CAAC,IAAI,CAAC,IAAI,CAAC,CAAC,CAAC;IACnC,CAAC;IACD,KAAK,CAAC,UAAU,CAAC,OAAO,EAAE,KAAK;QAC3B,MAAM,EAAE,OAAO,EAAE,GAAG,OAAO,CAAC,KAAK,CAAC;QAClC,IAAI,CAAC;YACD,MAAM,MAAM,GAAG,MAAM,IAAI,CAAC,cAAc,CAAC,WAAW,CAAC,OAAO,CAAC,CAAC;YAC9D,OAAO,CAAC,GAAG,CAAC,IAAI,CAAC,mCAAmC,OAAO,EAAE,CAAC,CAAC;YAC/D,KAAK,CAAC,IAAI,CAAC,MAAM,CAAC,CAAC;QACvB,CAAC;QACD,OAAO,KAAK,EAAE,CAAC;YACX,IAAI,KAAK,CAAC,IAAI,KAAK,OAAO,CAAC,SAAS,CAAC,eAAe,EAAE,CAAC;gBACnD,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC;oBACjB,UAAU,EAAE,GAAG;oBACf,KAAK,EAAE,aAAa;oBACpB,OAAO,EAAE,KAAK,CAAC,OAAO;iBACzB,CAAC,CAAC;YACP,CAAC;iBACI,IAAI,KAAK,CAAC,IAAI,KAAK,OAAO,CAAC,SAAS,CAAC,qBAAqB,EAAE,CAAC;gBAC9D,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC;oBACjB,UAAU,EAAE,GAAG;oBACf,KAAK,EAAE,uBAAuB;oBAC9B,OAAO,EAAE,KAAK,CAAC,OAAO;iBACzB,CAAC,CAAC;YACP,CAAC;iBACI,CAAC;gBACF,OAAO,CAAC,GAAG,CAAC,KAAK,CAAC,KAAK,CAAC,CAAC;gBACzB,KAAK,CAAC,IAAI,CAAC,GAAG,CAAC,CAAC,IAAI,CAAC;oBACjB,UAAU,EAAE,GAAG;oBACf,KAAK,EAAE,uBAAuB;oBAC9B,OAAO,EAAE,sDAAsD;iBAClE,CAAC,CAAC;YACP,CAAC;QACL,CAAC;IACL,CAAC;CACJ;AACD,OAAO,CAAC,aAAa,GAAG,aAAa,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.BalanceRoutes = void 0;\nconst types_1 = require(\"@/domain/types\");\nconst balanceSchema_1 = require(\"@/api/schemas/balanceSchema\");\nclass BalanceRoutes {\n    constructor(balanceService) {\n        this.balanceService = balanceService;\n    }\n    registerRoutes(server) {\n        server.get('/api/balance', {\n            schema: balanceSchema_1.balanceSchema,\n            config: {\n                // Enable caching for this route with 60 seconds TTL\n                cache: {\n                    // Generate a unique cache key based on the address parameter\n                    generateCacheKey: (request) => {\n                        return `balance:${request.query.address}`;\n                    }\n                }\n            },\n            onRequest: (request, reply, done) => {\n                request.log.info(`Processing balance request for address: ${request.query.address}`);\n                done();\n            }\n        }, this.getBalance.bind(this));\n    }\n    async getBalance(request, reply) {\n        const { address } = request.query;\n        try {\n            const result = await this.balanceService.getBalances(address);\n            request.log.info(`Retrieved balances for address: ${address}`);\n            reply.send(result);\n        }\n        catch (error) {\n            if (error.type === types_1.ErrorType.INVALID_ADDRESS) {\n                reply.code(400).send({\n                    statusCode: 400,\n                    error: 'Bad Request',\n                    message: error.message\n                });\n            }\n            else if (error.type === types_1.ErrorType.NO_BALANCES_AVAILABLE) {\n                reply.code(500).send({\n                    statusCode: 500,\n                    error: 'Internal Server Error',\n                    message: error.message\n                });\n            }\n            else {\n                request.log.error(error);\n                reply.code(500).send({\n                    statusCode: 500,\n                    error: 'Internal Server Error',\n                    message: 'An unexpected error occurred while fetching balances'\n                });\n            }\n        }\n    }\n}\nexports.BalanceRoutes = BalanceRoutes;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9hcGkvcm91dGVzL2JhbGFuY2VSb3V0ZXMudHMiLCJzb3VyY2VzIjpbIi9Vc2Vycy92aWNrbGVyY2hhcmxlcy9EZXNrdG9wL29iLXRlc3QvYmFja2VuZC9zcmMvYXBpL3JvdXRlcy9iYWxhbmNlUm91dGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVBLDBDQUEyQztBQUMzQywrREFBNEQ7QUFNNUQsTUFBYSxhQUFhO0lBR3hCLFlBQVksY0FBOEI7UUFDeEMsSUFBSSxDQUFDLGNBQWMsR0FBRyxjQUFjLENBQUM7SUFDdkMsQ0FBQztJQUVNLGNBQWMsQ0FBQyxNQUF1QjtRQUMzQyxNQUFNLENBQUMsR0FBRyxDQUVQLGNBQWMsRUFBRTtZQUNqQixNQUFNLEVBQUUsNkJBQWE7WUFDckIsTUFBTSxFQUFFO2dCQUNOLG9EQUFvRDtnQkFDcEQsS0FBSyxFQUFFO29CQUNMLDZEQUE2RDtvQkFDN0QsZ0JBQWdCLEVBQUUsQ0FBQyxPQUFzRCxFQUFFLEVBQUU7d0JBQzNFLE9BQU8sV0FBVyxPQUFPLENBQUMsS0FBSyxDQUFDLE9BQU8sRUFBRSxDQUFDO29CQUM1QyxDQUFDO2lCQUNGO2FBQ0Y7WUFDRCxTQUFTLEVBQUUsQ0FBQyxPQUFPLEVBQUUsS0FBSyxFQUFFLElBQUksRUFBRSxFQUFFO2dCQUNsQyxPQUFPLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQywyQ0FBMkMsT0FBTyxDQUFDLEtBQUssQ0FBQyxPQUFPLEVBQUUsQ0FBQyxDQUFDO2dCQUNyRixJQUFJLEVBQUUsQ0FBQztZQUNULENBQUM7U0FDRixFQUFFLElBQUksQ0FBQyxVQUFVLENBQUMsSUFBSSxDQUFDLElBQUksQ0FBQyxDQUFDLENBQUM7SUFDakMsQ0FBQztJQUVPLEtBQUssQ0FBQyxVQUFVLENBQ3RCLE9BQXNELEVBQ3RELEtBQW1CO1FBRW5CLE1BQU0sRUFBRSxPQUFPLEVBQUUsR0FBRyxPQUFPLENBQUMsS0FBSyxDQUFDO1FBRWxDLElBQUksQ0FBQztZQUNILE1BQU0sTUFBTSxHQUFHLE1BQU0sSUFBSSxDQUFDLGNBQWMsQ0FBQyxXQUFXLENBQUMsT0FBTyxDQUFDLENBQUM7WUFDOUQsT0FBTyxDQUFDLEdBQUcsQ0FBQyxJQUFJLENBQUMsbUNBQW1DLE9BQU8sRUFBRSxDQUFDLENBQUM7WUFDL0QsS0FBSyxDQUFDLElBQUksQ0FBQyxNQUFNLENBQUMsQ0FBQztRQUNyQixDQUFDO1FBQUMsT0FBTyxLQUFVLEVBQUUsQ0FBQztZQUVwQixJQUFJLEtBQUssQ0FBQyxJQUFJLEtBQUssaUJBQVMsQ0FBQyxlQUFlLEVBQUUsQ0FBQztnQkFDN0MsS0FBSyxDQUFDLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQyxJQUFJLENBQUM7b0JBQ25CLFVBQVUsRUFBRSxHQUFHO29CQUNmLEtBQUssRUFBRSxhQUFhO29CQUNwQixPQUFPLEVBQUUsS0FBSyxDQUFDLE9BQU87aUJBQ3ZCLENBQUMsQ0FBQztZQUNMLENBQUM7aUJBQU0sSUFBSSxLQUFLLENBQUMsSUFBSSxLQUFLLGlCQUFTLENBQUMscUJBQXFCLEVBQUUsQ0FBQztnQkFDMUQsS0FBSyxDQUFDLElBQUksQ0FBQyxHQUFHLENBQUMsQ0FBQyxJQUFJLENBQUM7b0JBQ25CLFVBQVUsRUFBRSxHQUFHO29CQUNmLEtBQUssRUFBRSx1QkFBdUI7b0JBQzlCLE9BQU8sRUFBRSxLQUFLLENBQUMsT0FBTztpQkFDdkIsQ0FBQyxDQUFDO1lBQ0wsQ0FBQztpQkFBTSxDQUFDO2dCQUVOLE9BQU8sQ0FBQyxHQUFHLENBQUMsS0FBSyxDQUFDLEtBQUssQ0FBQyxDQUFDO2dCQUN6QixLQUFLLENBQUMsSUFBSSxDQUFDLEdBQUcsQ0FBQyxDQUFDLElBQUksQ0FBQztvQkFDbkIsVUFBVSxFQUFFLEdBQUc7b0JBQ2YsS0FBSyxFQUFFLHVCQUF1QjtvQkFDOUIsT0FBTyxFQUFFLHNEQUFzRDtpQkFDaEUsQ0FBQyxDQUFDO1lBQ0wsQ0FBQztRQUNILENBQUM7SUFDSCxDQUFDO0NBQ0Y7QUEvREQsc0NBK0RDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgRmFzdGlmeUluc3RhbmNlLCBGYXN0aWZ5UmVwbHksIEZhc3RpZnlSZXF1ZXN0IH0gZnJvbSAnZmFzdGlmeSc7XG5pbXBvcnQgeyBCYWxhbmNlU2VydmljZSB9IGZyb20gJ0AvYXBwbGljYXRpb24vYmFsYW5jZVNlcnZpY2UnO1xuaW1wb3J0IHsgRXJyb3JUeXBlIH0gZnJvbSAnQC9kb21haW4vdHlwZXMnO1xuaW1wb3J0IHsgYmFsYW5jZVNjaGVtYSB9IGZyb20gJ0AvYXBpL3NjaGVtYXMvYmFsYW5jZVNjaGVtYSc7XG5cbmludGVyZmFjZSBCYWxhbmNlUXVlcnkge1xuICBhZGRyZXNzOiBzdHJpbmc7XG59XG5cbmV4cG9ydCBjbGFzcyBCYWxhbmNlUm91dGVzIHtcbiAgcHJpdmF0ZSBiYWxhbmNlU2VydmljZTogQmFsYW5jZVNlcnZpY2U7XG5cbiAgY29uc3RydWN0b3IoYmFsYW5jZVNlcnZpY2U6IEJhbGFuY2VTZXJ2aWNlKSB7XG4gICAgdGhpcy5iYWxhbmNlU2VydmljZSA9IGJhbGFuY2VTZXJ2aWNlO1xuICB9XG5cbiAgcHVibGljIHJlZ2lzdGVyUm91dGVzKHNlcnZlcjogRmFzdGlmeUluc3RhbmNlKTogdm9pZCB7XG4gICAgc2VydmVyLmdldDx7XG4gICAgICBRdWVyeXN0cmluZzogQmFsYW5jZVF1ZXJ5O1xuICAgIH0+KCcvYXBpL2JhbGFuY2UnLCB7XG4gICAgICBzY2hlbWE6IGJhbGFuY2VTY2hlbWEsXG4gICAgICBjb25maWc6IHtcbiAgICAgICAgLy8gRW5hYmxlIGNhY2hpbmcgZm9yIHRoaXMgcm91dGUgd2l0aCA2MCBzZWNvbmRzIFRUTFxuICAgICAgICBjYWNoZToge1xuICAgICAgICAgIC8vIEdlbmVyYXRlIGEgdW5pcXVlIGNhY2hlIGtleSBiYXNlZCBvbiB0aGUgYWRkcmVzcyBwYXJhbWV0ZXJcbiAgICAgICAgICBnZW5lcmF0ZUNhY2hlS2V5OiAocmVxdWVzdDogRmFzdGlmeVJlcXVlc3Q8eyBRdWVyeXN0cmluZzogQmFsYW5jZVF1ZXJ5IH0+KSA9PiB7XG4gICAgICAgICAgICByZXR1cm4gYGJhbGFuY2U6JHtyZXF1ZXN0LnF1ZXJ5LmFkZHJlc3N9YDtcbiAgICAgICAgICB9XG4gICAgICAgIH1cbiAgICAgIH0sXG4gICAgICBvblJlcXVlc3Q6IChyZXF1ZXN0LCByZXBseSwgZG9uZSkgPT4ge1xuICAgICAgICByZXF1ZXN0LmxvZy5pbmZvKGBQcm9jZXNzaW5nIGJhbGFuY2UgcmVxdWVzdCBmb3IgYWRkcmVzczogJHtyZXF1ZXN0LnF1ZXJ5LmFkZHJlc3N9YCk7XG4gICAgICAgIGRvbmUoKTtcbiAgICAgIH1cbiAgICB9LCB0aGlzLmdldEJhbGFuY2UuYmluZCh0aGlzKSk7XG4gIH1cblxuICBwcml2YXRlIGFzeW5jIGdldEJhbGFuY2UoXG4gICAgcmVxdWVzdDogRmFzdGlmeVJlcXVlc3Q8eyBRdWVyeXN0cmluZzogQmFsYW5jZVF1ZXJ5IH0+LFxuICAgIHJlcGx5OiBGYXN0aWZ5UmVwbHlcbiAgKTogUHJvbWlzZTx2b2lkPiB7XG4gICAgY29uc3QgeyBhZGRyZXNzIH0gPSByZXF1ZXN0LnF1ZXJ5O1xuXG4gICAgdHJ5IHtcbiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IHRoaXMuYmFsYW5jZVNlcnZpY2UuZ2V0QmFsYW5jZXMoYWRkcmVzcyk7XG4gICAgICByZXF1ZXN0LmxvZy5pbmZvKGBSZXRyaWV2ZWQgYmFsYW5jZXMgZm9yIGFkZHJlc3M6ICR7YWRkcmVzc31gKTtcbiAgICAgIHJlcGx5LnNlbmQocmVzdWx0KTtcbiAgICB9IGNhdGNoIChlcnJvcjogYW55KSB7XG5cbiAgICAgIGlmIChlcnJvci50eXBlID09PSBFcnJvclR5cGUuSU5WQUxJRF9BRERSRVNTKSB7XG4gICAgICAgIHJlcGx5LmNvZGUoNDAwKS5zZW5kKHtcbiAgICAgICAgICBzdGF0dXNDb2RlOiA0MDAsXG4gICAgICAgICAgZXJyb3I6ICdCYWQgUmVxdWVzdCcsXG4gICAgICAgICAgbWVzc2FnZTogZXJyb3IubWVzc2FnZVxuICAgICAgICB9KTtcbiAgICAgIH0gZWxzZSBpZiAoZXJyb3IudHlwZSA9PT0gRXJyb3JUeXBlLk5PX0JBTEFOQ0VTX0FWQUlMQUJMRSkge1xuICAgICAgICByZXBseS5jb2RlKDUwMCkuc2VuZCh7XG4gICAgICAgICAgc3RhdHVzQ29kZTogNTAwLFxuICAgICAgICAgIGVycm9yOiAnSW50ZXJuYWwgU2VydmVyIEVycm9yJyxcbiAgICAgICAgICBtZXNzYWdlOiBlcnJvci5tZXNzYWdlXG4gICAgICAgIH0pO1xuICAgICAgfSBlbHNlIHtcblxuICAgICAgICByZXF1ZXN0LmxvZy5lcnJvcihlcnJvcik7XG4gICAgICAgIHJlcGx5LmNvZGUoNTAwKS5zZW5kKHtcbiAgICAgICAgICBzdGF0dXNDb2RlOiA1MDAsXG4gICAgICAgICAgZXJyb3I6ICdJbnRlcm5hbCBTZXJ2ZXIgRXJyb3InLFxuICAgICAgICAgIG1lc3NhZ2U6ICdBbiB1bmV4cGVjdGVkIGVycm9yIG9jY3VycmVkIHdoaWxlIGZldGNoaW5nIGJhbGFuY2VzJ1xuICAgICAgICB9KTtcbiAgICAgIH1cbiAgICB9XG4gIH1cbn0iXX0="
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/dist/api/schemas/balanceSchema.js": {
+      "lineLengths": [
+        13,
+        62,
+        31,
+        25,
+        18,
+        23,
+        30,
+        21,
+        22,
+        31,
+        47,
+        69,
+        13,
+        9,
+        6,
+        15,
+        14,
+        27,
+        25,
+        44,
+        27,
+        34,
+        28,
+        39,
+        37,
+        55,
+        56,
+        56,
+        56,
+        25,
+        21,
+        17,
+        13,
+        10,
+        14,
+        27,
+        25,
+        47,
+        42,
+        43,
+        13,
+        10,
+        14,
+        27,
+        25,
+        47,
+        42,
+        43,
+        13,
+        9,
+        5,
+        2,
+        41
+      ],
+      "data": {
+        "version": 3,
+        "file": "balanceSchema.js",
+        "sourceRoot": "",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/api/schemas/balanceSchema.ts"
+        ],
+        "names": [],
+        "mappings": ";;;AAEa,QAAA,aAAa,GAAkB;IAC1C,WAAW,EAAE;QACX,IAAI,EAAE,QAAQ;QACd,QAAQ,EAAE,CAAC,SAAS,CAAC;QACrB,UAAU,EAAE;YACV,OAAO,EAAE;gBACP,IAAI,EAAE,QAAQ;gBACd,OAAO,EAAE,qBAAqB;gBAC9B,WAAW,EAAE,wCAAwC;aACtD;SACF;KACF;IACD,QAAQ,EAAE;QACR,GAAG,EAAE;YACH,IAAI,EAAE,QAAQ;YACd,UAAU,EAAE;gBACV,OAAO,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;gBAC3B,QAAQ,EAAE;oBACR,IAAI,EAAE,OAAO;oBACb,KAAK,EAAE;wBACL,IAAI,EAAE,QAAQ;wBACd,UAAU,EAAE;4BACV,MAAM,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;4BAC1B,OAAO,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;4BAC3B,OAAO,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;4BAC3B,QAAQ,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;yBAC7B;qBACF;iBACF;aACF;SACF;QACD,GAAG,EAAE;YACH,IAAI,EAAE,QAAQ;YACd,UAAU,EAAE;gBACV,UAAU,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;gBAC9B,KAAK,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;gBACzB,OAAO,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;aAC5B;SACF;QACD,GAAG,EAAE;YACH,IAAI,EAAE,QAAQ;YACd,UAAU,EAAE;gBACV,UAAU,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;gBAC9B,KAAK,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;gBACzB,OAAO,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE;aAC5B;SACF;KACF;CACF,CAAC"
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/tokenService.ts": {
+      "lineLengths": [
+        13,
+        62,
+        30,
+        31,
+        40,
+        42,
+        37,
+        41,
+        20,
+        19,
+        54,
+        36,
+        66,
+        11,
+        5,
+        29,
+        46,
+        5,
+        44,
+        13,
+        58,
+        32,
+        15,
+        20,
+        40,
+        42,
+        44,
+        43,
+        14,
+        9,
+        23,
+        89,
+        9,
+        5,
+        46,
+        13,
+        54,
+        42,
+        42,
+        35,
+        15,
+        69,
+        20,
+        40,
+        42,
+        44,
+        43,
+        14,
+        9,
+        23,
+        104,
+        9,
+        5,
+        36,
+        84,
+        16,
+        46,
+        20,
+        33,
+        10,
+        5,
+        1,
+        36,
+        13004
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/tokenService.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/tokenService.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,YAAY,GAAG,KAAK,CAAC,CAAC;AAC9B,MAAM,MAAM,GAAG,OAAO,CAAC,MAAM,CAAC,CAAC;AAC/B,MAAM,QAAQ,GAAG,OAAO,CAAC,aAAa,CAAC,CAAC;AACxC,MAAM,OAAO,GAAG,OAAO,CAAC,gBAAgB,CAAC,CAAC;AAC1C,MAAM,QAAQ,GAAG,OAAO,CAAC,UAAU,CAAC,CAAC;AACrC,MAAM,UAAU,GAAG,OAAO,CAAC,YAAY,CAAC,CAAC;AACzC,MAAM,YAAY;IACd;QACI,IAAI,CAAC,MAAM,GAAG,CAAC,CAAC,EAAE,MAAM,CAAC,kBAAkB,CAAC,CAAC;YACzC,KAAK,EAAE,QAAQ,CAAC,OAAO;YACvB,SAAS,EAAE,CAAC,CAAC,EAAE,MAAM,CAAC,IAAI,CAAC,CAAC,QAAQ,CAAC,gBAAgB,CAAC;SACzD,CAAC,CAAC;IACP,CAAC;IACD,cAAc,CAAC,OAAO;QAClB,OAAO,CAAC,CAAC,EAAE,MAAM,CAAC,SAAS,CAAC,CAAC,OAAO,CAAC,CAAC;IAC1C,CAAC;IACD,KAAK,CAAC,aAAa,CAAC,OAAO,EAAE,QAAQ;QACjC,IAAI,CAAC;YACD,MAAM,OAAO,GAAG,MAAM,IAAI,CAAC,MAAM,CAAC,UAAU,CAAC;gBACzC,OAAO,EAAE,OAAO;aACnB,CAAC,CAAC;YACH,OAAO;gBACH,MAAM,EAAE,QAAQ,CAAC,MAAM;gBACvB,OAAO,EAAE,QAAQ,CAAC,OAAO;gBACzB,OAAO,EAAE,OAAO,CAAC,QAAQ,EAAE;gBAC3B,QAAQ,EAAE,QAAQ,CAAC,QAAQ;aAC9B,CAAC;QACN,CAAC;QACD,OAAO,KAAK,EAAE,CAAC;YACX,MAAM,IAAI,CAAC,cAAc,CAAC,KAAK,EAAE,iCAAiC,OAAO,EAAE,CAAC,CAAC;QACjF,CAAC;IACL,CAAC;IACD,KAAK,CAAC,eAAe,CAAC,OAAO,EAAE,QAAQ;QACnC,IAAI,CAAC;YACD,MAAM,QAAQ,GAAG,CAAC,CAAC,EAAE,MAAM,CAAC,WAAW,CAAC,CAAC;gBACrC,OAAO,EAAE,QAAQ,CAAC,OAAO;gBACzB,GAAG,EAAE,UAAU,CAAC,SAAS;gBACzB,MAAM,EAAE,IAAI,CAAC,MAAM;aACtB,CAAC,CAAC;YACH,MAAM,OAAO,GAAG,MAAM,QAAQ,CAAC,IAAI,CAAC,SAAS,CAAC,CAAC,OAAO,CAAC,CAAC,CAAC;YACzD,OAAO;gBACH,MAAM,EAAE,QAAQ,CAAC,MAAM;gBACvB,OAAO,EAAE,QAAQ,CAAC,OAAO;gBACzB,OAAO,EAAE,OAAO,CAAC,QAAQ,EAAE;gBAC3B,QAAQ,EAAE,QAAQ,CAAC,QAAQ;aAC9B,CAAC;QACN,CAAC;QACD,OAAO,KAAK,EAAE,CAAC;YACX,MAAM,IAAI,CAAC,cAAc,CAAC,KAAK,EAAE,iBAAiB,QAAQ,CAAC,MAAM,gBAAgB,OAAO,EAAE,CAAC,CAAC;QAChG,CAAC;IACL,CAAC;IACD,cAAc,CAAC,KAAK,EAAE,OAAO;QACzB,MAAM,YAAY,GAAG,KAAK,YAAY,KAAK,CAAC,CAAC,CAAC,KAAK,CAAC,OAAO,CAAC,CAAC,CAAC,MAAM,CAAC,KAAK,CAAC,CAAC;QAC5E,OAAO;YACH,IAAI,EAAE,OAAO,CAAC,SAAS,CAAC,SAAS;YACjC,OAAO;YACP,OAAO,EAAE,YAAY;SACxB,CAAC;IACN,CAAC;CACJ;AACD,OAAO,CAAC,YAAY,GAAG,YAAY,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.TokenService = void 0;\nconst viem_1 = require(\"viem\");\nconst chains_1 = require(\"viem/chains\");\nconst types_1 = require(\"@/domain/types\");\nconst config_1 = require(\"./config\");\nconst erc20Abi_1 = require(\"./erc20Abi\");\nclass TokenService {\n    constructor() {\n        this.client = (0, viem_1.createPublicClient)({\n            chain: chains_1.mainnet,\n            transport: (0, viem_1.http)(config_1.ETHEREUM_RPC_URL)\n        });\n    }\n    isValidAddress(address) {\n        return (0, viem_1.isAddress)(address);\n    }\n    async getEthBalance(address, tokenDef) {\n        try {\n            const balance = await this.client.getBalance({\n                address: address\n            });\n            return {\n                symbol: tokenDef.symbol,\n                address: tokenDef.address,\n                balance: balance.toString(),\n                decimals: tokenDef.decimals\n            };\n        }\n        catch (error) {\n            throw this.handleRpcError(error, `Failed to get ETH balance for ${address}`);\n        }\n    }\n    async getTokenBalance(address, tokenDef) {\n        try {\n            const contract = (0, viem_1.getContract)({\n                address: tokenDef.address,\n                abi: erc20Abi_1.ERC20_ABI,\n                client: this.client\n            });\n            const balance = await contract.read.balanceOf([address]);\n            return {\n                symbol: tokenDef.symbol,\n                address: tokenDef.address,\n                balance: balance.toString(),\n                decimals: tokenDef.decimals\n            };\n        }\n        catch (error) {\n            throw this.handleRpcError(error, `Failed to get ${tokenDef.symbol} balance for ${address}`);\n        }\n    }\n    handleRpcError(error, message) {\n        const errorMessage = error instanceof Error ? error.message : String(error);\n        return {\n            type: types_1.ErrorType.RPC_ERROR,\n            message,\n            details: errorMessage\n        };\n    }\n}\nexports.TokenService = TokenService;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9pbmZyYXN0cnVjdHVyZS9ldGhlcmV1bS90b2tlblNlcnZpY2UudHMiLCJzb3VyY2VzIjpbIi9Vc2Vycy92aWNrbGVyY2hhcmxlcy9EZXNrdG9wL29iLXRlc3QvYmFja2VuZC9zcmMvaW5mcmFzdHJ1Y3R1cmUvZXRoZXJldW0vdG9rZW5TZXJ2aWNlLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUFBLCtCQUFxRjtBQUNyRix3Q0FBc0M7QUFDdEMsMENBQW9GO0FBQ3BGLHFDQUE0QztBQUM1Qyx5Q0FBdUM7QUFFdkMsTUFBYSxZQUFZO0lBR3ZCO1FBQ0UsSUFBSSxDQUFDLE1BQU0sR0FBRyxJQUFBLHlCQUFrQixFQUFDO1lBQy9CLEtBQUssRUFBRSxnQkFBTztZQUNkLFNBQVMsRUFBRSxJQUFBLFdBQUksRUFBQyx5QkFBZ0IsQ0FBQztTQUNsQyxDQUFDLENBQUM7SUFDTCxDQUFDO0lBRU0sY0FBYyxDQUFDLE9BQWU7UUFDbkMsT0FBTyxJQUFBLGdCQUFTLEVBQUMsT0FBTyxDQUFDLENBQUM7SUFDNUIsQ0FBQztJQUVNLEtBQUssQ0FBQyxhQUFhLENBQUMsT0FBZSxFQUFFLFFBQXlCO1FBQ25FLElBQUksQ0FBQztZQUNILE1BQU0sT0FBTyxHQUFHLE1BQU0sSUFBSSxDQUFDLE1BQU0sQ0FBQyxVQUFVLENBQUM7Z0JBQzNDLE9BQU8sRUFBRSxPQUF3QjthQUNsQyxDQUFDLENBQUM7WUFFSCxPQUFPO2dCQUNMLE1BQU0sRUFBRSxRQUFRLENBQUMsTUFBTTtnQkFDdkIsT0FBTyxFQUFFLFFBQVEsQ0FBQyxPQUFPO2dCQUN6QixPQUFPLEVBQUUsT0FBTyxDQUFDLFFBQVEsRUFBRTtnQkFDM0IsUUFBUSxFQUFFLFFBQVEsQ0FBQyxRQUFRO2FBQzVCLENBQUM7UUFDSixDQUFDO1FBQUMsT0FBTyxLQUFLLEVBQUUsQ0FBQztZQUNmLE1BQU0sSUFBSSxDQUFDLGNBQWMsQ0FBQyxLQUFLLEVBQUUsaUNBQWlDLE9BQU8sRUFBRSxDQUFDLENBQUM7UUFDL0UsQ0FBQztJQUNILENBQUM7SUFHTSxLQUFLLENBQUMsZUFBZSxDQUFDLE9BQWUsRUFBRSxRQUF5QjtRQUNyRSxJQUFJLENBQUM7WUFDSCxNQUFNLFFBQVEsR0FBRyxJQUFBLGtCQUFXLEVBQUM7Z0JBQzNCLE9BQU8sRUFBRSxRQUFRLENBQUMsT0FBd0I7Z0JBQzFDLEdBQUcsRUFBRSxvQkFBUztnQkFDZCxNQUFNLEVBQUUsSUFBSSxDQUFDLE1BQU07YUFDcEIsQ0FBQyxDQUFDO1lBRUgsTUFBTSxPQUFPLEdBQUcsTUFBTSxRQUFRLENBQUMsSUFBSSxDQUFDLFNBQVMsQ0FBQyxDQUFDLE9BQXdCLENBQUMsQ0FBQyxDQUFDO1lBRTFFLE9BQU87Z0JBQ0wsTUFBTSxFQUFFLFFBQVEsQ0FBQyxNQUFNO2dCQUN2QixPQUFPLEVBQUUsUUFBUSxDQUFDLE9BQU87Z0JBQ3pCLE9BQU8sRUFBRSxPQUFPLENBQUMsUUFBUSxFQUFFO2dCQUMzQixRQUFRLEVBQUUsUUFBUSxDQUFDLFFBQVE7YUFDNUIsQ0FBQztRQUNKLENBQUM7UUFBQyxPQUFPLEtBQUssRUFBRSxDQUFDO1lBQ2YsTUFBTSxJQUFJLENBQUMsY0FBYyxDQUFDLEtBQUssRUFBRSxpQkFBaUIsUUFBUSxDQUFDLE1BQU0sZ0JBQWdCLE9BQU8sRUFBRSxDQUFDLENBQUM7UUFDOUYsQ0FBQztJQUNILENBQUM7SUFFTyxjQUFjLENBQUMsS0FBYyxFQUFFLE9BQWU7UUFDcEQsTUFBTSxZQUFZLEdBQUcsS0FBSyxZQUFZLEtBQUssQ0FBQyxDQUFDLENBQUMsS0FBSyxDQUFDLE9BQU8sQ0FBQyxDQUFDLENBQUMsTUFBTSxDQUFDLEtBQUssQ0FBQyxDQUFDO1FBRTVFLE9BQU87WUFDTCxJQUFJLEVBQUUsaUJBQVMsQ0FBQyxTQUFTO1lBQ3pCLE9BQU87WUFDUCxPQUFPLEVBQUUsWUFBWTtTQUN0QixDQUFDO0lBQ0osQ0FBQztDQUNGO0FBOURELG9DQThEQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IGNyZWF0ZVB1YmxpY0NsaWVudCwgaHR0cCwgZm9ybWF0VW5pdHMsIGlzQWRkcmVzcywgZ2V0Q29udHJhY3QgfSBmcm9tICd2aWVtJztcbmltcG9ydCB7IG1haW5uZXQgfSBmcm9tICd2aWVtL2NoYWlucyc7XG5pbXBvcnQgeyBBcHBFcnJvciwgRXJyb3JUeXBlLCBUb2tlbkJhbGFuY2UsIFRva2VuRGVmaW5pdGlvbiB9IGZyb20gJ0AvZG9tYWluL3R5cGVzJztcbmltcG9ydCB7IEVUSEVSRVVNX1JQQ19VUkwgfSBmcm9tICcuL2NvbmZpZyc7XG5pbXBvcnQgeyBFUkMyMF9BQkkgfSBmcm9tICcuL2VyYzIwQWJpJztcblxuZXhwb3J0IGNsYXNzIFRva2VuU2VydmljZSB7XG4gIHByaXZhdGUgY2xpZW50OiBSZXR1cm5UeXBlPHR5cGVvZiBjcmVhdGVQdWJsaWNDbGllbnQ+O1xuXG4gIGNvbnN0cnVjdG9yKCkge1xuICAgIHRoaXMuY2xpZW50ID0gY3JlYXRlUHVibGljQ2xpZW50KHtcbiAgICAgIGNoYWluOiBtYWlubmV0LFxuICAgICAgdHJhbnNwb3J0OiBodHRwKEVUSEVSRVVNX1JQQ19VUkwpXG4gICAgfSk7XG4gIH1cblxuICBwdWJsaWMgaXNWYWxpZEFkZHJlc3MoYWRkcmVzczogc3RyaW5nKTogYm9vbGVhbiB7XG4gICAgcmV0dXJuIGlzQWRkcmVzcyhhZGRyZXNzKTtcbiAgfVxuXG4gIHB1YmxpYyBhc3luYyBnZXRFdGhCYWxhbmNlKGFkZHJlc3M6IHN0cmluZywgdG9rZW5EZWY6IFRva2VuRGVmaW5pdGlvbik6IFByb21pc2U8VG9rZW5CYWxhbmNlPiB7XG4gICAgdHJ5IHtcbiAgICAgIGNvbnN0IGJhbGFuY2UgPSBhd2FpdCB0aGlzLmNsaWVudC5nZXRCYWxhbmNlKHsgXG4gICAgICAgIGFkZHJlc3M6IGFkZHJlc3MgYXMgYDB4JHtzdHJpbmd9YCBcbiAgICAgIH0pO1xuICAgICAgXG4gICAgICByZXR1cm4ge1xuICAgICAgICBzeW1ib2w6IHRva2VuRGVmLnN5bWJvbCxcbiAgICAgICAgYWRkcmVzczogdG9rZW5EZWYuYWRkcmVzcyxcbiAgICAgICAgYmFsYW5jZTogYmFsYW5jZS50b1N0cmluZygpLFxuICAgICAgICBkZWNpbWFsczogdG9rZW5EZWYuZGVjaW1hbHNcbiAgICAgIH07XG4gICAgfSBjYXRjaCAoZXJyb3IpIHtcbiAgICAgIHRocm93IHRoaXMuaGFuZGxlUnBjRXJyb3IoZXJyb3IsIGBGYWlsZWQgdG8gZ2V0IEVUSCBiYWxhbmNlIGZvciAke2FkZHJlc3N9YCk7XG4gICAgfVxuICB9XG5cblxuICBwdWJsaWMgYXN5bmMgZ2V0VG9rZW5CYWxhbmNlKGFkZHJlc3M6IHN0cmluZywgdG9rZW5EZWY6IFRva2VuRGVmaW5pdGlvbik6IFByb21pc2U8VG9rZW5CYWxhbmNlPiB7XG4gICAgdHJ5IHtcbiAgICAgIGNvbnN0IGNvbnRyYWN0ID0gZ2V0Q29udHJhY3Qoe1xuICAgICAgICBhZGRyZXNzOiB0b2tlbkRlZi5hZGRyZXNzIGFzIGAweCR7c3RyaW5nfWAsXG4gICAgICAgIGFiaTogRVJDMjBfQUJJLFxuICAgICAgICBjbGllbnQ6IHRoaXMuY2xpZW50XG4gICAgICB9KTtcbiAgICAgIFxuICAgICAgY29uc3QgYmFsYW5jZSA9IGF3YWl0IGNvbnRyYWN0LnJlYWQuYmFsYW5jZU9mKFthZGRyZXNzIGFzIGAweCR7c3RyaW5nfWBdKTtcbiAgICAgIFxuICAgICAgcmV0dXJuIHtcbiAgICAgICAgc3ltYm9sOiB0b2tlbkRlZi5zeW1ib2wsXG4gICAgICAgIGFkZHJlc3M6IHRva2VuRGVmLmFkZHJlc3MsXG4gICAgICAgIGJhbGFuY2U6IGJhbGFuY2UudG9TdHJpbmcoKSxcbiAgICAgICAgZGVjaW1hbHM6IHRva2VuRGVmLmRlY2ltYWxzXG4gICAgICB9O1xuICAgIH0gY2F0Y2ggKGVycm9yKSB7XG4gICAgICB0aHJvdyB0aGlzLmhhbmRsZVJwY0Vycm9yKGVycm9yLCBgRmFpbGVkIHRvIGdldCAke3Rva2VuRGVmLnN5bWJvbH0gYmFsYW5jZSBmb3IgJHthZGRyZXNzfWApO1xuICAgIH1cbiAgfVxuXG4gIHByaXZhdGUgaGFuZGxlUnBjRXJyb3IoZXJyb3I6IHVua25vd24sIG1lc3NhZ2U6IHN0cmluZyk6IEFwcEVycm9yIHtcbiAgICBjb25zdCBlcnJvck1lc3NhZ2UgPSBlcnJvciBpbnN0YW5jZW9mIEVycm9yID8gZXJyb3IubWVzc2FnZSA6IFN0cmluZyhlcnJvcik7XG4gICAgXG4gICAgcmV0dXJuIHtcbiAgICAgIHR5cGU6IEVycm9yVHlwZS5SUENfRVJST1IsXG4gICAgICBtZXNzYWdlLFxuICAgICAgZGV0YWlsczogZXJyb3JNZXNzYWdlXG4gICAgfTtcbiAgfVxufSBcbiJdfQ=="
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts": {
+      "lineLengths": [
+        13,
+        62,
+        61,
+        103,
+        28,
+        5,
+        22,
+        101,
+        20,
+        6,
+        5,
+        23,
+        90,
+        19,
+        6,
+        5,
+        23,
+        90,
+        20,
+        5,
+        2,
+        4420
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/config.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,gBAAgB,GAAG,OAAO,CAAC,gBAAgB,GAAG,KAAK,CAAC,CAAC;AAC7D,OAAO,CAAC,gBAAgB,GAAG,OAAO,CAAC,GAAG,CAAC,gBAAgB,IAAI,2CAA2C,CAAC;AACvG,OAAO,CAAC,gBAAgB,GAAG;IACvB;QACI,MAAM,EAAE,KAAK;QACb,OAAO,EAAE,4CAA4C,EAAE,sCAAsC;QAC7F,QAAQ,EAAE,EAAE;KACf;IACD;QACI,MAAM,EAAE,MAAM;QACd,OAAO,EAAE,4CAA4C,EAAE,2BAA2B;QAClF,QAAQ,EAAE,CAAC;KACd;IACD;QACI,MAAM,EAAE,MAAM;QACd,OAAO,EAAE,4CAA4C,EAAE,2BAA2B;QAClF,QAAQ,EAAE,EAAE;KACf;CACJ,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.SUPPORTED_TOKENS = exports.ETHEREUM_RPC_URL = void 0;\nexports.ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || 'https://eth-mainnet.g.alchemy.com/v2/demo';\nexports.SUPPORTED_TOKENS = [\n    {\n        symbol: 'ETH',\n        address: '0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE', // Conventional address for native ETH\n        decimals: 18\n    },\n    {\n        symbol: 'USDC',\n        address: '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', // USDC on Ethereum mainnet\n        decimals: 6\n    },\n    {\n        symbol: 'LINK',\n        address: '0x514910771AF9Ca656af840dff83E8264EcF986CA', // LINK on Ethereum mainnet\n        decimals: 18\n    }\n];\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9pbmZyYXN0cnVjdHVyZS9ldGhlcmV1bS9jb25maWcudHMiLCJzb3VyY2VzIjpbIi9Vc2Vycy92aWNrbGVyY2hhcmxlcy9EZXNrdG9wL29iLXRlc3QvYmFja2VuZC9zcmMvaW5mcmFzdHJ1Y3R1cmUvZXRoZXJldW0vY29uZmlnLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQUVhLFFBQUEsZ0JBQWdCLEdBQUcsT0FBTyxDQUFDLEdBQUcsQ0FBQyxnQkFBZ0IsSUFBSSwyQ0FBMkMsQ0FBQztBQUUvRixRQUFBLGdCQUFnQixHQUFzQjtJQUNqRDtRQUNFLE1BQU0sRUFBRSxLQUFLO1FBQ2IsT0FBTyxFQUFFLDRDQUE0QyxFQUFFLHNDQUFzQztRQUM3RixRQUFRLEVBQUUsRUFBRTtLQUNiO0lBQ0Q7UUFDRSxNQUFNLEVBQUUsTUFBTTtRQUNkLE9BQU8sRUFBRSw0Q0FBNEMsRUFBRSwyQkFBMkI7UUFDbEYsUUFBUSxFQUFFLENBQUM7S0FDWjtJQUNEO1FBQ0UsTUFBTSxFQUFFLE1BQU07UUFDZCxPQUFPLEVBQUUsNENBQTRDLEVBQUUsMkJBQTJCO1FBQ2xGLFFBQVEsRUFBRSxFQUFFO0tBQ2I7Q0FDRixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgVG9rZW5EZWZpbml0aW9uIH0gZnJvbSAnQC9kb21haW4vdHlwZXMnO1xuXG5leHBvcnQgY29uc3QgRVRIRVJFVU1fUlBDX1VSTCA9IHByb2Nlc3MuZW52LkVUSEVSRVVNX1JQQ19VUkwgfHwgJ2h0dHBzOi8vZXRoLW1haW5uZXQuZy5hbGNoZW15LmNvbS92Mi9kZW1vJztcblxuZXhwb3J0IGNvbnN0IFNVUFBPUlRFRF9UT0tFTlM6IFRva2VuRGVmaW5pdGlvbltdID0gW1xuICB7XG4gICAgc3ltYm9sOiAnRVRIJyxcbiAgICBhZGRyZXNzOiAnMHhFZWVlZUVlZWVFZUVlZUVlRWVFZWVFRUVlZWVlRWVlZWVlZWVFRWVFJywgLy8gQ29udmVudGlvbmFsIGFkZHJlc3MgZm9yIG5hdGl2ZSBFVEhcbiAgICBkZWNpbWFsczogMThcbiAgfSxcbiAge1xuICAgIHN5bWJvbDogJ1VTREMnLFxuICAgIGFkZHJlc3M6ICcweEEwYjg2OTkxYzYyMThiMzZjMWQxOUQ0YTJlOUViMGNFMzYwNmVCNDgnLCAvLyBVU0RDIG9uIEV0aGVyZXVtIG1haW5uZXRcbiAgICBkZWNpbWFsczogNlxuICB9LFxuICB7XG4gICAgc3ltYm9sOiAnTElOSycsXG4gICAgYWRkcmVzczogJzB4NTE0OTEwNzcxQUY5Q2E2NTZhZjg0MGRmZjgzRTgyNjRFY0Y5ODZDQScsIC8vIExJTksgb24gRXRoZXJldW0gbWFpbm5ldFxuICAgIGRlY2ltYWxzOiAxOFxuICB9XG5dO1xuIl19"
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/erc20Abi.ts": {
+      "lineLengths": [
+        13,
+        62,
+        27,
+        21,
+        5,
+        53,
+        26,
+        49,
+        32,
+        24,
+        6,
+        5,
+        19,
+        25,
+        47,
+        32,
+        24,
+        6,
+        5,
+        19,
+        23,
+        48,
+        32,
+        24,
+        5,
+        2,
+        4764
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/erc20Abi.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/infrastructure/ethereum/erc20Abi.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,SAAS,GAAG,KAAK,CAAC,CAAC;AAC3B,OAAO,CAAC,SAAS,GAAG;IAChB;QACI,MAAM,EAAE,CAAC,EAAE,IAAI,EAAE,OAAO,EAAE,IAAI,EAAE,SAAS,EAAE,CAAC;QAC5C,IAAI,EAAE,WAAW;QACjB,OAAO,EAAE,CAAC,EAAE,IAAI,EAAE,EAAE,EAAE,IAAI,EAAE,SAAS,EAAE,CAAC;QACxC,eAAe,EAAE,MAAM;QACvB,IAAI,EAAE,UAAU;KACnB;IACD;QACI,MAAM,EAAE,EAAE;QACV,IAAI,EAAE,UAAU;QAChB,OAAO,EAAE,CAAC,EAAE,IAAI,EAAE,EAAE,EAAE,IAAI,EAAE,OAAO,EAAE,CAAC;QACtC,eAAe,EAAE,MAAM;QACvB,IAAI,EAAE,UAAU;KACnB;IACD;QACI,MAAM,EAAE,EAAE;QACV,IAAI,EAAE,QAAQ;QACd,OAAO,EAAE,CAAC,EAAE,IAAI,EAAE,EAAE,EAAE,IAAI,EAAE,QAAQ,EAAE,CAAC;QACvC,eAAe,EAAE,MAAM;QACvB,IAAI,EAAE,UAAU;KACnB;CACJ,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ERC20_ABI = void 0;\nexports.ERC20_ABI = [\n    {\n        inputs: [{ name: 'owner', type: 'address' }],\n        name: 'balanceOf',\n        outputs: [{ name: '', type: 'uint256' }],\n        stateMutability: 'view',\n        type: 'function'\n    },\n    {\n        inputs: [],\n        name: 'decimals',\n        outputs: [{ name: '', type: 'uint8' }],\n        stateMutability: 'view',\n        type: 'function'\n    },\n    {\n        inputs: [],\n        name: 'symbol',\n        outputs: [{ name: '', type: 'string' }],\n        stateMutability: 'view',\n        type: 'function'\n    }\n];\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9pbmZyYXN0cnVjdHVyZS9ldGhlcmV1bS9lcmMyMEFiaS50cyIsInNvdXJjZXMiOlsiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9pbmZyYXN0cnVjdHVyZS9ldGhlcmV1bS9lcmMyMEFiaS50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBYSxRQUFBLFNBQVMsR0FBRztJQUN2QjtRQUNFLE1BQU0sRUFBRSxDQUFDLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxJQUFJLEVBQUUsU0FBUyxFQUFFLENBQUM7UUFDNUMsSUFBSSxFQUFFLFdBQVc7UUFDakIsT0FBTyxFQUFFLENBQUMsRUFBRSxJQUFJLEVBQUUsRUFBRSxFQUFFLElBQUksRUFBRSxTQUFTLEVBQUUsQ0FBQztRQUN4QyxlQUFlLEVBQUUsTUFBTTtRQUN2QixJQUFJLEVBQUUsVUFBVTtLQUNqQjtJQUNEO1FBQ0UsTUFBTSxFQUFFLEVBQUU7UUFDVixJQUFJLEVBQUUsVUFBVTtRQUNoQixPQUFPLEVBQUUsQ0FBQyxFQUFFLElBQUksRUFBRSxFQUFFLEVBQUUsSUFBSSxFQUFFLE9BQU8sRUFBRSxDQUFDO1FBQ3RDLGVBQWUsRUFBRSxNQUFNO1FBQ3ZCLElBQUksRUFBRSxVQUFVO0tBQ2pCO0lBQ0Q7UUFDRSxNQUFNLEVBQUUsRUFBRTtRQUNWLElBQUksRUFBRSxRQUFRO1FBQ2QsT0FBTyxFQUFFLENBQUMsRUFBRSxJQUFJLEVBQUUsRUFBRSxFQUFFLElBQUksRUFBRSxRQUFRLEVBQUUsQ0FBQztRQUN2QyxlQUFlLEVBQUUsTUFBTTtRQUN2QixJQUFJLEVBQUUsVUFBVTtLQUNqQjtDQUNPLENBQUMiLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgY29uc3QgRVJDMjBfQUJJID0gW1xuICB7XG4gICAgaW5wdXRzOiBbeyBuYW1lOiAnb3duZXInLCB0eXBlOiAnYWRkcmVzcycgfV0sXG4gICAgbmFtZTogJ2JhbGFuY2VPZicsXG4gICAgb3V0cHV0czogW3sgbmFtZTogJycsIHR5cGU6ICd1aW50MjU2JyB9XSxcbiAgICBzdGF0ZU11dGFiaWxpdHk6ICd2aWV3JyxcbiAgICB0eXBlOiAnZnVuY3Rpb24nXG4gIH0sXG4gIHtcbiAgICBpbnB1dHM6IFtdLFxuICAgIG5hbWU6ICdkZWNpbWFscycsXG4gICAgb3V0cHV0czogW3sgbmFtZTogJycsIHR5cGU6ICd1aW50OCcgfV0sXG4gICAgc3RhdGVNdXRhYmlsaXR5OiAndmlldycsXG4gICAgdHlwZTogJ2Z1bmN0aW9uJ1xuICB9LFxuICB7XG4gICAgaW5wdXRzOiBbXSxcbiAgICBuYW1lOiAnc3ltYm9sJyxcbiAgICBvdXRwdXRzOiBbeyBuYW1lOiAnJywgdHlwZTogJ3N0cmluZycgfV0sXG4gICAgc3RhdGVNdXRhYmlsaXR5OiAndmlldycsXG4gICAgdHlwZTogJ2Z1bmN0aW9uJ1xuICB9XG5dIGFzIGNvbnN0OyAiXX0="
+        ],
+        "sourceRoot": ""
+      }
+    },
+    "file:///Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts": {
+      "lineLengths": [
+        13,
+        62,
+        27,
+        14,
+        23,
+        53,
+        65,
+        41,
+        54,
+        3064
+      ],
+      "data": {
+        "version": 3,
+        "file": "/Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts",
+        "sources": [
+          "file:///Users/vicklercharles/Desktop/ob-test/backend/src/domain/types.ts"
+        ],
+        "names": [],
+        "mappings": "AAAA,YAAY,CAAC;AACb,MAAM,CAAC,cAAc,CAAC,OAAO,EAAE,YAAY,EAAE,EAAE,KAAK,EAAE,IAAI,EAAE,CAAC,CAAC;AAC9D,OAAO,CAAC,SAAS,GAAG,KAAK,CAAC,CAAC;AAC3B,IAAI,SAAS,CAAC;AACd,CAAC,UAAU,SAAS;IAChB,SAAS,CAAC,iBAAiB,CAAC,GAAG,iBAAiB,CAAC;IACjD,SAAS,CAAC,uBAAuB,CAAC,GAAG,uBAAuB,CAAC;IAC7D,SAAS,CAAC,WAAW,CAAC,GAAG,WAAW,CAAC;AACzC,CAAC,CAAC,CAAC,SAAS,IAAI,CAAC,OAAO,CAAC,SAAS,GAAG,SAAS,GAAG,EAAE,CAAC,CAAC,CAAC",
+        "sourcesContent": [
+          "\"use strict\";\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ErrorType = void 0;\nvar ErrorType;\n(function (ErrorType) {\n    ErrorType[\"INVALID_ADDRESS\"] = \"INVALID_ADDRESS\";\n    ErrorType[\"NO_BALANCES_AVAILABLE\"] = \"NO_BALANCES_AVAILABLE\";\n    ErrorType[\"RPC_ERROR\"] = \"RPC_ERROR\";\n})(ErrorType || (exports.ErrorType = ErrorType = {}));\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiL1VzZXJzL3ZpY2tsZXJjaGFybGVzL0Rlc2t0b3Avb2ItdGVzdC9iYWNrZW5kL3NyYy9kb21haW4vdHlwZXMudHMiLCJzb3VyY2VzIjpbIi9Vc2Vycy92aWNrbGVyY2hhcmxlcy9EZXNrdG9wL29iLXRlc3QvYmFja2VuZC9zcmMvZG9tYWluL3R5cGVzLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7OztBQWtCQSxJQUFZLFNBSVg7QUFKRCxXQUFZLFNBQVM7SUFDbkIsZ0RBQW1DLENBQUE7SUFDbkMsNERBQStDLENBQUE7SUFDL0Msb0NBQXVCLENBQUE7QUFDekIsQ0FBQyxFQUpXLFNBQVMseUJBQVQsU0FBUyxRQUlwQiIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBpbnRlcmZhY2UgVG9rZW5CYWxhbmNlIHtcbiAgc3ltYm9sOiBzdHJpbmc7XG4gIGFkZHJlc3M6IHN0cmluZztcbiAgYmFsYW5jZTogc3RyaW5nO1xuICBkZWNpbWFsczogbnVtYmVyO1xufVxuXG5leHBvcnQgaW50ZXJmYWNlIEJhbGFuY2VSZXNwb25zZSB7XG4gIGFkZHJlc3M6IHN0cmluZztcbiAgYmFsYW5jZXM6IFRva2VuQmFsYW5jZVtdO1xufVxuXG5leHBvcnQgaW50ZXJmYWNlIFRva2VuRGVmaW5pdGlvbiB7XG4gIHN5bWJvbDogc3RyaW5nO1xuICBhZGRyZXNzOiBzdHJpbmc7XG4gIGRlY2ltYWxzOiBudW1iZXI7XG59XG5cbmV4cG9ydCBlbnVtIEVycm9yVHlwZSB7XG4gIElOVkFMSURfQUREUkVTUyA9ICdJTlZBTElEX0FERFJFU1MnLFxuICBOT19CQUxBTkNFU19BVkFJTEFCTEUgPSAnTk9fQkFMQU5DRVNfQVZBSUxBQkxFJyxcbiAgUlBDX0VSUk9SID0gJ1JQQ19FUlJPUidcbn1cblxuZXhwb3J0IGludGVyZmFjZSBBcHBFcnJvciB7XG4gIHR5cGU6IEVycm9yVHlwZTtcbiAgbWVzc2FnZTogc3RyaW5nO1xuICBkZXRhaWxzPzogdW5rbm93bjtcbn1cbiJdfQ=="
+        ],
+        "sourceRoot": ""
+      }
+    }
+  }
+}

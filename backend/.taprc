@@ -1,0 +1,3 @@
+node-arg:
+  - "--require=ts-node/register"
+  - "--require=./tsconfig-paths-bootstrap.js" 

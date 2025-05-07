@@ -1,0 +1,49 @@
+TAP version 14
+# Subtest: Balance Routes
+    # Subtest: GET /api/balance - should return balances for valid address
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - Should include ETH token
+        ok 5 - ETH token data should match
+        ok 6 - Should include USDC token
+        ok 7 - USDC token data should match
+        ok 8 - Should include LINK token
+        ok 9 - LINK token data should match
+        1..9
+    ok 1 - GET /api/balance - should return balances for valid address # time=48.504ms
+    
+    # Subtest: GET /api/balance - should return 400 for invalid address
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - type is string
+        1..4
+    ok 2 - GET /api/balance - should return 400 for invalid address # time=14.691ms
+    
+    # Subtest: GET /api/balance - should return 500 when no balances are available
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        1..3
+    ok 3 - GET /api/balance - should return 500 when no balances are available # time=17.417ms
+    
+    # Subtest: GET /api/balance - should validate request schema for missing address
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        1..3
+    ok 4 - GET /api/balance - should validate request schema for missing address # time=10.675ms
+    
+    # Subtest: GET /api/balance - should validate address format in request schema
+        ok 1 - should be equal
+        ok 2 - should be equal
+        ok 3 - should be equal
+        ok 4 - Error message should mention pattern validation
+        1..4
+    ok 5 - GET /api/balance - should validate address format in request schema # time=9.083ms
+    
+    1..5
+ok 1 - Balance Routes # time=106.14ms
+
+1..1
