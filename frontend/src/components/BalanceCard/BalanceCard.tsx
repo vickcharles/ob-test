@@ -1,6 +1,5 @@
 import type { TokenBalance } from '../../types/ethereum';
 import { formatBalance } from '../../utils/formatters';
-import styles from './BalanceCard.module.css';
 
 interface BalanceCardProps {
   balance: TokenBalance;
@@ -8,9 +7,11 @@ interface BalanceCardProps {
 
 export const BalanceCard = ({ balance }: BalanceCardProps) => {
   return (
-    <div className={styles.card}>
-      <div className={styles.tokenName}>{balance.symbol}</div>
-      <div className={styles.balanceAmount}>{formatBalance(balance.balance, balance.decimals)}</div>
+    <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-4 hover:shadow-md transition-shadow">
+      <div className="text-lg font-bold text-gray-700 dark:text-gray-300 mb-2">{balance.symbol}</div>
+      <div className="text-2xl font-mono text-primary-600 dark:text-primary-400">
+        {formatBalance(balance.balance, balance.decimals)}
+      </div>
     </div>
   );
 };

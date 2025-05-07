@@ -4,12 +4,13 @@ import { fetchEthereumBalance } from '../../services/ethereumService';
 import { EthereumAddressForm } from '../EthereumAddressForm/EthereumAddressForm';
 import { BalancesList } from '../BalancesList/BalancesList';
 import { ErrorMessage } from '../ErrorMessage/ErrorMessage';
-import styles from './EthereumBalanceChecker.module.css';
+import { Button } from '../Button';
 
 export const EthereumBalanceChecker = () => {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [balanceData, setBalanceData] = useState<BalanceResponse | null>(null);
+  const [showForm, setShowForm] = useState(true);
 
   const handleAddressSubmit = async (address: string) => {
     setIsLoading(true);
@@ -18,6 +19,7 @@ export const EthereumBalanceChecker = () => {
     try {
       const data = await fetchEthereumBalance(address);
       setBalanceData(data);
+      setShowForm(false);
     } catch (err) {
       setError(err instanceof Error ? err.message : 'Failed to fetch balance data');
       setBalanceData(null);
@@ -27,17 +29,24 @@ export const EthereumBalanceChecker = () => {
   };
 
   const clearError = () => setError(null);
+  
+  const handleCheckAnother = () => {
+    setShowForm(true);
+    setBalanceData(null);
+  };
 
   return (
-    <div className={styles.container}>
-      <EthereumAddressForm onSubmit={handleAddressSubmit} isLoading={isLoading} />
-      
+    <div className="flex flex-col items-center p-8 w-full max-w-3xl mx-auto dark:text-white">
+      {showForm && <EthereumAddressForm onSubmit={handleAddressSubmit} isLoading={isLoading} />}   
       {error && <ErrorMessage message={error} onDismiss={clearError} />}
-      
-      {isLoading && <div className={styles.loading}>Loading balance data...</div>}
-      
+  
       {balanceData && !isLoading && (
-        <BalancesList address={balanceData.address} balances={balanceData.balances} />
+        <>
+          <BalancesList address={balanceData.address} balances={balanceData.balances} />
+          <div className="mt-6">
+            <Button onClick={handleCheckAnother}>Check Another Address</Button>
+          </div>
+        </>
       )}
     </div>
   );

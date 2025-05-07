@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
-import styles from './EthereumAddressForm.module.css';
+import { Button } from '../Button';
 
 interface EthereumAddressFormProps {
   onSubmit: (address: string) => void;
@@ -34,11 +34,13 @@ export const EthereumAddressForm = ({ onSubmit, isLoading }: EthereumAddressForm
   };
 
   return (
-    <div className={styles.form}>
-      <h2 className={styles.heading}>Ethereum Balance Checker</h2>
+    <div className="w-full bg-white dark:bg-gray-800 shadow-md rounded-lg p-6 mb-8">
+      <h2 className="text-2xl font-bold mb-6 text-gray-800 dark:text-white text-center">Check Your Balance</h2>
       <form onSubmit={handleSubmit}>
-        <div className={styles.formGroup}>
-          <label htmlFor="address" className={styles.label}>Ethereum Address</label>
+        <div className="mb-4">
+          <label htmlFor="address" className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Ethereum Address
+          </label>
           <input
             type="text"
             id="address"
@@ -46,13 +48,18 @@ export const EthereumAddressForm = ({ onSubmit, isLoading }: EthereumAddressForm
             onChange={(e) => setAddress(e.target.value)}
             placeholder="0x..."
             disabled={isLoading}
-            className={styles.input}
+            className="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm 
+                      focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:text-white"
           />
-          {error && <div className={styles.errorText}>{error}</div>}
+          {error && <div className="mt-2 text-sm text-red-600 dark:text-red-400">{error}</div>}
         </div>
-        <button type="submit" disabled={isLoading} className={styles.button}>
-          {isLoading ? 'Loading...' : 'Check Balance'}
-        </button>
+        <Button 
+          type="submit" 
+          isLoading={isLoading}
+          className="w-full"
+        >
+          Continue
+        </Button>
       </form>
     </div>
   );
