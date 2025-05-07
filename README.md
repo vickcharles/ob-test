@@ -80,28 +80,6 @@ npm run dev
 
 3. Access the application in your browser at http://localhost:5173
 
-### Production Mode
-
-1. Build the backend:
-```bash
-cd backend
-npm run build
-```
-
-2. Build the frontend:
-```bash
-cd frontend
-npm run build
-```
-
-3. Start the backend server:
-```bash
-cd backend
-npm start
-```
-
-4. The frontend build can be served using any static file server from the `frontend/dist` directory.
-
 ## API Endpoints 🔌
 
 - `GET /api/balance/:address`: Get token balance for a specific Ethereum address
@@ -127,4 +105,79 @@ npm start
 - Vite
 - Tailwind CSS
 - viem (Ethereum interaction)
+
+## Testing 🧪
+
+### Frontend Tests
+
+The frontend uses Vitest with React Testing Library for component testing.
+
+1. Run the tests in watch mode:
+```bash
+cd frontend
+npm test
+```
+
+2. Run tests with coverage:
+```bash
+cd frontend
+npm test -- --coverage
+```
+
+3. Run a specific test file:
+```bash
+cd frontend
+npm test -- src/components/Button/__tests__/Button.test.tsx
+```
+
+The frontend tests focus on behavior rather than implementation details, following the React Testing Library philosophy of testing how users interact with components. Tests include:
+
+- Form validation and submission
+- API call handling and error states
+- UI state transitions
+- Component rendering based on props
+
+#### Test Coverage
+
+The main components in the UI flow have 100% test coverage:
+- `EthereumAddressForm`: 100% coverage
+- `BalancesList`: 100% coverage 
+- `Button`: 100% coverage
+- `EthereumBalanceChecker`: 100% line coverage
+
+For more details on the testing approach, see the [frontend testing documentation](./frontend/TESTING.md).
+
+# Backend Tests
+
+This directory contains tests for the backend API endpoints.
+
+## Running Tests
+
+To run the tests, use the following command from the root of the backend directory:
+
+```bash
+npm run build && npm test
+```
+
+This will compile the TypeScript code and run the tests using the Tap test framework.
+
+## Test Structure
+
+The tests use `tap` as the testing framework and Fastify's built-in `inject()` method for HTTP injection. This allows testing the API endpoints without actually running a server.
+
+### Balance Endpoint Tests
+
+`balanceRoutes.test.ts` contains tests for the `/api/balance` endpoint:
+
+1. **Successful request** - Tests that a valid address returns the expected balance data
+2. **Invalid address** - Tests that an invalid Ethereum address returns a 400 Bad Request
+3. **No balances available** - Tests error handling when token services fail
+4. **Missing address parameter** - Tests schema validation for a missing required parameter
+5. **Invalid address format** - Tests schema validation for an incorrectly formatted Ethereum address
+
+## Mocking
+
+The tests use mocked versions of the `TokenService` to avoid making actual blockchain RPC calls during testing. This approach allows testing the API behavior in isolation from external dependencies. 
+
+
 
