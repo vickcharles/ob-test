@@ -1,4 +1,4 @@
-import type { BalanceResponse } from '../types/ethereum';
+import type { BalanceResponse } from '../types/balance';
 
 const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
 
@@ -20,4 +20,4 @@ export const fetchEthereumBalance = async (address: string): Promise<BalanceResp
     console.error('Failed to fetch balance:', error);
     throw error;
   }
-};
+}; 

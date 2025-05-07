@@ -1,4 +1,4 @@
-import type { TokenBalance } from '../../types/ethereum';
+import type { TokenBalance } from '../../types/balance';
 import { BalanceCard } from '../BalanceCard/BalanceCard';
 
 interface BalancesListProps {

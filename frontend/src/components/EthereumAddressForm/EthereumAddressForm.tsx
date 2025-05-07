@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import type { FormEvent } from 'react';
 import { Button } from '../Button';
+import { isAddress } from 'viem';
 
 interface EthereumAddressFormProps {
   onSubmit: (address: string) => void;
@@ -12,8 +13,7 @@ export const EthereumAddressForm = ({ onSubmit, isLoading }: EthereumAddressForm
   const [error, setError] = useState('');
 
   const validateEthereumAddress = (address: string): boolean => {
-    // Basic Ethereum address validation (starts with 0x and has 42 chars total)
-    return /^0x[a-fA-F0-9]{40}$/.test(address);
+    return isAddress(address);
   };
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
@@ -25,7 +25,7 @@ export const EthereumAddressForm = ({ onSubmit, isLoading }: EthereumAddressForm
     }
     
     if (!validateEthereumAddress(address)) {
-      setError('Please enter a valid Ethereum address (0x followed by 40 hexadecimal characters)');
+      setError('Please enter a valid Ethereum address');
       return;
     }
     

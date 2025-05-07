@@ -8,23 +8,37 @@
  * @param decimals The number of decimals for the token (default: 18 for ETH)
  * @returns A formatted string representation of the balance
  */
+import { formatEther, formatUnits } from 'viem';
+
 export const formatBalance = (balance: string | number, decimals: number = 18): string => {
-  // Convert string balance to a number, considering decimals
-  const numericBalance = typeof balance === 'string' 
-    ? Number(balance) / Math.pow(10, decimals)
-    : balance;
+  try {
+    // Convert to bigint for viem functions
+    const balanceBigInt = typeof balance === 'string' 
+      ? BigInt(balance)
+      : BigInt(balance.toString());
     
-  if (numericBalance >= 1) {
-    // Format larger numbers with commas and up to 4 decimal places
-    return new Intl.NumberFormat('en-US', {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 4
-    }).format(numericBalance);
-  } else if (numericBalance >= 0.0001) {
-    // For smaller but not tiny numbers: show 5 significant digits
-    return numericBalance.toFixed(5);
-  } else {
-    // For very small numbers: show 8 significant digits
-    return numericBalance.toFixed(8);
+    // Use viem's formatUnits (or formatEther for ETH)
+    const formattedValue = decimals === 18 
+      ? formatEther(balanceBigInt) 
+      : formatUnits(balanceBigInt, decimals);
+    
+    const numericValue = parseFloat(formattedValue);
+    
+    if (numericValue >= 1) {
+      // Format larger numbers with commas and up to 4 decimal places
+      return new Intl.NumberFormat('en-US', {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 4
+      }).format(numericValue);
+    } else if (numericValue >= 0.0001) {
+      // For smaller but not tiny numbers: show 5 significant digits
+      return numericValue.toFixed(5);
+    } else {
+      // For very small numbers: show 8 significant digits
+      return numericValue.toFixed(8);
+    }
+  } catch (error) {
+    console.error('Error formatting balance:', error);
+    return '0';
   }
 }; 

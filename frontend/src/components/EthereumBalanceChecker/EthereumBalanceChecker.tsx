@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import type { BalanceResponse } from '../../types/ethereum';
-import { fetchEthereumBalance } from '../../services/ethereumService';
+import type { BalanceResponse } from '../../types/balance';
+import { fetchEthereumBalance } from '../../services/balanceService';
 import { EthereumAddressForm } from '../EthereumAddressForm/EthereumAddressForm';
 import { BalancesList } from '../BalancesList/BalancesList';
 import { ErrorMessage } from '../ErrorMessage/ErrorMessage';
