@@ -32,11 +32,8 @@ class BalanceService {
                 return null;
             }
         });
-        // Wait for all promises to resolve
         const results = await Promise.all(balancePromises);
-        // Filter out failed token balance requests
         const balances = results.filter((balance) => balance !== null);
-        // If no balances could be retrieved, return an error
         if (balances.length === 0) {
             throw {
                 type: types_1.ErrorType.NO_BALANCES_AVAILABLE,

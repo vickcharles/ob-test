@@ -19,7 +19,6 @@ class BalanceRoutes {
             reply.send(result);
         }
         catch (error) {
-            // Handle expected application errors
             if (error.type === types_1.ErrorType.INVALID_ADDRESS) {
                 reply.code(400).send({
                     statusCode: 400,
@@ -35,7 +34,6 @@ class BalanceRoutes {
                 });
             }
             else {
-                // Handle unexpected errors
                 request.log.error(error);
                 reply.code(500).send({
                     statusCode: 500,

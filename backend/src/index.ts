@@ -1,5 +1,6 @@
 import 'dotenv/config';
 import fastify, { FastifyInstance } from 'fastify'
+import cors from '@fastify/cors'
 import { BalanceService } from './application/balanceService'
 import { BalanceRoutes } from './api/routes/balanceRoutes'
 import { TokenService } from './infrastructure/ethereum/tokenService'
@@ -8,6 +9,12 @@ const server: FastifyInstance = fastify({
   logger: true
 })
 
+// Register CORS
+server.register(cors, {
+  origin: true, // Permite todas las origenes en desarrollo
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  credentials: true
+});
 
 const tokenService = new TokenService()
 const balanceService = new BalanceService(tokenService)

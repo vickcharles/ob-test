@@ -5,20 +5,23 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv/config");
 const fastify_1 = __importDefault(require("fastify"));
+const cors_1 = __importDefault(require("@fastify/cors"));
 const balanceService_1 = require("./application/balanceService");
 const balanceRoutes_1 = require("./api/routes/balanceRoutes");
 const tokenService_1 = require("./infrastructure/ethereum/tokenService");
-// Create a Fastify instance
 const server = (0, fastify_1.default)({
     logger: true
 });
-// Initialize services
+// Register CORS
+server.register(cors_1.default, {
+    origin: true, // Permite todas las origenes en desarrollo
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    credentials: true
+});
 const tokenService = new tokenService_1.TokenService();
 const balanceService = new balanceService_1.BalanceService(tokenService);
 const balanceRoutes = new balanceRoutes_1.BalanceRoutes(balanceService);
-// Register routes
 balanceRoutes.registerRoutes(server);
-// Define the route
 server.get('/hello', {
     schema: {
         querystring: {
@@ -61,7 +64,6 @@ server.setErrorHandler((error, request, reply) => {
         message: 'An unexpected error occurred'
     });
 });
-// Start the server
 const start = async () => {
     try {
         const port = process.env.PORT ? parseInt(process.env.PORT) : 3001;

@@ -1,10 +1,10 @@
-import type { EthereumBalance } from '../../types/ethereum';
+import type { TokenBalance } from '../../types/ethereum';
 import { BalanceCard } from '../BalanceCard/BalanceCard';
 import styles from './BalancesList.module.css';
 
 interface BalancesListProps {
   address: string;
-  balances: EthereumBalance[];
+  balances: TokenBalance[];
 }
 
 export const BalancesList = ({ address, balances }: BalancesListProps) => {
@@ -21,7 +21,7 @@ export const BalancesList = ({ address, balances }: BalancesListProps) => {
       
       <div className={styles.grid}>
         {balances.map((balance, index) => (
-          <BalanceCard key={`${balance.token}-${index}`} balance={balance} />
+          <BalanceCard key={`${balance.symbol}-${index}`} balance={balance} />
         ))}
       </div>
     </div>

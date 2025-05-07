@@ -1,9 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.SUPPORTED_TOKENS = exports.ETHEREUM_RPC_URL = void 0;
-// Configuration for Ethereum provider
 exports.ETHEREUM_RPC_URL = process.env.ETHEREUM_RPC_URL || 'https://eth-mainnet.g.alchemy.com/v2/demo';
-// Token definitions for supported tokens
 exports.SUPPORTED_TOKENS = [
     {
         symbol: 'ETH',

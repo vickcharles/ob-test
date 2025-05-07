@@ -4,7 +4,6 @@ exports.TokenService = void 0;
 const ethers_1 = require("ethers");
 const types_1 = require("../../domain/types");
 const config_1 = require("./config");
-// Standard ERC20 ABI for balanceOf method
 const ERC20_ABI = [
     'function balanceOf(address owner) view returns (uint256)',
     'function decimals() view returns (uint8)',
@@ -14,11 +13,9 @@ class TokenService {
     constructor() {
         this.provider = new ethers_1.ethers.JsonRpcProvider(config_1.ETHEREUM_RPC_URL);
     }
-    // Validates Ethereum address format
     isValidAddress(address) {
         return ethers_1.ethers.isAddress(address);
     }
-    // Get ETH balance
     async getEthBalance(address, tokenDef) {
         try {
             const balance = await this.provider.getBalance(address);
@@ -33,7 +30,6 @@ class TokenService {
             throw this.handleRpcError(error, `Failed to get ETH balance for ${address}`);
         }
     }
-    // Get ERC20 token balance
     async getTokenBalance(address, tokenDef) {
         try {
             const tokenContract = new ethers_1.ethers.Contract(tokenDef.address, ERC20_ABI, this.provider);

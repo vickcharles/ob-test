@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.balanceSchema = void 0;
-// Schema for the balance endpoint
 exports.balanceSchema = {
     querystring: {
         type: 'object',
