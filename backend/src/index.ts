@@ -1,11 +1,20 @@
+import 'dotenv/config';
 import fastify, { FastifyInstance } from 'fastify'
+import { BalanceService } from './application/balanceService'
+import { BalanceRoutes } from './api/routes/balanceRoutes'
+import { TokenService } from './infrastructure/ethereum/tokenService'
 
-// Create a Fastify instance
 const server: FastifyInstance = fastify({
   logger: true
 })
 
-// Define a route with TypeScript interfaces
+
+const tokenService = new TokenService()
+const balanceService = new BalanceService(tokenService)
+const balanceRoutes = new BalanceRoutes(balanceService)
+
+balanceRoutes.registerRoutes(server)
+
 interface IQuerystring {
   name?: string
 }
@@ -14,7 +23,6 @@ interface IHeaders {
   'h-Custom': string
 }
 
-// Define the route
 server.get<{
   Querystring: IQuerystring,
   Headers: IHeaders
@@ -44,7 +52,27 @@ server.get<{
   }
 })
 
-// Start the server
+// Add error handler
+server.setErrorHandler((error, request, reply) => {
+  request.log.error(error)
+  
+  // Handle validation errors from schema validation
+  if (error.validation) {
+    reply.status(400).send({
+      statusCode: 400,
+      error: 'Bad Request',
+      message: error.message
+    })
+    return
+  }
+  
+  reply.status(500).send({
+    statusCode: 500,
+    error: 'Internal Server Error',
+    message: 'An unexpected error occurred'
+  })
+})
+
 const start = async () => {
   try {
     const port = process.env.PORT ? parseInt(process.env.PORT) : 3001

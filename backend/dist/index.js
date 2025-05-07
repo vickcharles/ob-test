@@ -3,11 +3,21 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+require("dotenv/config");
 const fastify_1 = __importDefault(require("fastify"));
+const balanceService_1 = require("./application/balanceService");
+const balanceRoutes_1 = require("./api/routes/balanceRoutes");
+const tokenService_1 = require("./infrastructure/ethereum/tokenService");
 // Create a Fastify instance
 const server = (0, fastify_1.default)({
     logger: true
 });
+// Initialize services
+const tokenService = new tokenService_1.TokenService();
+const balanceService = new balanceService_1.BalanceService(tokenService);
+const balanceRoutes = new balanceRoutes_1.BalanceRoutes(balanceService);
+// Register routes
+balanceRoutes.registerRoutes(server);
 // Define the route
 server.get('/hello', {
     schema: {
@@ -32,6 +42,24 @@ server.get('/hello', {
         hello: name || 'world',
         customHeader
     };
+});
+// Add error handler
+server.setErrorHandler((error, request, reply) => {
+    request.log.error(error);
+    // Handle validation errors from schema validation
+    if (error.validation) {
+        reply.status(400).send({
+            statusCode: 400,
+            error: 'Bad Request',
+            message: error.message
+        });
+        return;
+    }
+    reply.status(500).send({
+        statusCode: 500,
+        error: 'Internal Server Error',
+        message: 'An unexpected error occurred'
+    });
 });
 // Start the server
 const start = async () => {
