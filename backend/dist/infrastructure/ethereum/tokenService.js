@@ -1,24 +1,26 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.TokenService = void 0;
-const ethers_1 = require("ethers");
+const viem_1 = require("viem");
+const chains_1 = require("viem/chains");
 const types_1 = require("../../domain/types");
 const config_1 = require("./config");
-const ERC20_ABI = [
-    'function balanceOf(address owner) view returns (uint256)',
-    'function decimals() view returns (uint8)',
-    'function symbol() view returns (string)'
-];
+const erc20Abi_1 = require("./erc20Abi");
 class TokenService {
     constructor() {
-        this.provider = new ethers_1.ethers.JsonRpcProvider(config_1.ETHEREUM_RPC_URL);
+        this.client = (0, viem_1.createPublicClient)({
+            chain: chains_1.mainnet,
+            transport: (0, viem_1.http)(config_1.ETHEREUM_RPC_URL)
+        });
     }
     isValidAddress(address) {
-        return ethers_1.ethers.isAddress(address);
+        return (0, viem_1.isAddress)(address);
     }
     async getEthBalance(address, tokenDef) {
         try {
-            const balance = await this.provider.getBalance(address);
+            const balance = await this.client.getBalance({
+                address: address
+            });
             return {
                 symbol: tokenDef.symbol,
                 address: tokenDef.address,
@@ -32,8 +34,12 @@ class TokenService {
     }
     async getTokenBalance(address, tokenDef) {
         try {
-            const tokenContract = new ethers_1.ethers.Contract(tokenDef.address, ERC20_ABI, this.provider);
-            const balance = await tokenContract.balanceOf(address);
+            const contract = (0, viem_1.getContract)({
+                address: tokenDef.address,
+                abi: erc20Abi_1.ERC20_ABI,
+                client: this.client
+            });
+            const balance = await contract.read.balanceOf([address]);
             return {
                 symbol: tokenDef.symbol,
                 address: tokenDef.address,

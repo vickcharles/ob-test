@@ -19,6 +19,19 @@ export class BalanceRoutes {
       Querystring: BalanceQuery;
     }>('/api/balance', {
       schema: balanceSchema,
+      config: {
+        // Enable caching for this route with 60 seconds TTL
+        cache: {
+          // Generate a unique cache key based on the address parameter
+          generateCacheKey: (request: FastifyRequest<{ Querystring: BalanceQuery }>) => {
+            return `balance:${request.query.address}`;
+          }
+        }
+      },
+      onRequest: (request, reply, done) => {
+        request.log.info(`Processing balance request for address: ${request.query.address}`);
+        done();
+      }
     }, this.getBalance.bind(this));
   }
 
@@ -30,6 +43,7 @@ export class BalanceRoutes {
 
     try {
       const result = await this.balanceService.getBalances(address);
+      request.log.info(`Retrieved balances for address: ${address}`);
       reply.send(result);
     } catch (error: any) {
 

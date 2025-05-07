@@ -6,17 +6,33 @@ Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv/config");
 const fastify_1 = __importDefault(require("fastify"));
 const cors_1 = __importDefault(require("@fastify/cors"));
+const caching_1 = __importDefault(require("@fastify/caching"));
 const balanceService_1 = require("./application/balanceService");
 const balanceRoutes_1 = require("./api/routes/balanceRoutes");
 const tokenService_1 = require("./infrastructure/ethereum/tokenService");
 const server = (0, fastify_1.default)({
-    logger: true
+    logger: {
+        level: 'info'
+    }
 });
-// Register CORS
 server.register(cors_1.default, {
-    origin: true, // Permite todas las origenes en desarrollo
+    origin: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     credentials: true
+});
+// Register caching plugin with 60 seconds TTL
+server.register(caching_1.default, {
+    privacy: caching_1.default.privacy.PRIVATE,
+    expiresIn: 60, // TTL in seconds for cache entries
+    cache: new Map() // Use Map as in-memory cache storage
+});
+// Add hook to log when cache is used
+server.addHook('onSend', (request, reply, payload, done) => {
+    const cacheStatus = reply.getHeader('x-cache');
+    if (cacheStatus) {
+        request.log.info(`CACHE ${cacheStatus}: ${request.method} ${request.url}`);
+    }
+    done(null, payload);
 });
 const tokenService = new tokenService_1.TokenService();
 const balanceService = new balanceService_1.BalanceService(tokenService);
@@ -49,7 +65,6 @@ server.get('/hello', {
 // Add error handler
 server.setErrorHandler((error, request, reply) => {
     request.log.error(error);
-    // Handle validation errors from schema validation
     if (error.validation) {
         reply.status(400).send({
             statusCode: 400,

@@ -1,12 +1,15 @@
 import 'dotenv/config';
 import fastify, { FastifyInstance } from 'fastify'
 import cors from '@fastify/cors'
+import fastifyCaching from '@fastify/caching'
 import { BalanceService } from './application/balanceService'
 import { BalanceRoutes } from './api/routes/balanceRoutes'
 import { TokenService } from './infrastructure/ethereum/tokenService'
 
 const server: FastifyInstance = fastify({
-  logger: true
+  logger: {
+    level: 'info'
+  }
 })
 
 server.register(cors, {
@@ -14,6 +17,14 @@ server.register(cors, {
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   credentials: true
 });
+
+// Register caching plugin with 60 seconds TTL
+server.register(fastifyCaching, {
+  privacy: fastifyCaching.privacy.PRIVATE,
+  expiresIn: 60, // TTL in seconds for cache entries
+  cache: new Map() // Use Map as in-memory cache storage
+})
+
 
 const tokenService = new TokenService()
 const balanceService = new BalanceService(tokenService)

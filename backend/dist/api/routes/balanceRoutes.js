@@ -10,12 +10,26 @@ class BalanceRoutes {
     registerRoutes(server) {
         server.get('/api/balance', {
             schema: balanceSchema_1.balanceSchema,
+            config: {
+                // Enable caching for this route with 60 seconds TTL
+                cache: {
+                    // Generate a unique cache key based on the address parameter
+                    generateCacheKey: (request) => {
+                        return `balance:${request.query.address}`;
+                    }
+                }
+            },
+            onRequest: (request, reply, done) => {
+                request.log.info(`Processing balance request for address: ${request.query.address}`);
+                done();
+            }
         }, this.getBalance.bind(this));
     }
     async getBalance(request, reply) {
         const { address } = request.query;
         try {
             const result = await this.balanceService.getBalances(address);
+            request.log.info(`Retrieved balances for address: ${address}`);
             reply.send(result);
         }
         catch (error) {
