@@ -64,21 +64,42 @@ PORT=3001
 
 ## Running the Application 🚀
 
-### Development Mode
+### Step 1: Configure Environment Variables
 
-1. Start the backend server:
+1. Create a `.env` file in the `backend` directory:
+```bash
+cd backend
+touch .env
+```
+
+2. Add the following to the `.env` file:
+```
+PORT=3001
+# Add your Ethereum RPC URL if needed
+# ETHEREUM_RPC_URL=https://your-ethereum-node
+```
+
+### Step 2: Start the Backend Server
+
 ```bash
 cd backend
 npm run dev
 ```
 
-2. In a separate terminal, start the frontend development server:
+### Step 3: Start the Frontend Development Server
+
+In a new terminal window:
 ```bash
 cd frontend
 npm run dev
 ```
 
-3. Access the application in your browser at http://localhost:5173
+### Step 4: Access the Application
+
+Open your browser and navigate to:
+```
+http://localhost:5173
+```
 
 ## API Endpoints 🔌
 
